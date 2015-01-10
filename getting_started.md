@@ -15,6 +15,7 @@ Here's a Google Doc that we'll paste stuff into for easy passing of information.
 MAKE THIS!!!!!!
 
 <a name="prep"></a>
+
 Preparation
 ------------
 
@@ -36,6 +37,7 @@ Sounds like you may have been using AquaMac in the past and so this shouldn't be
 
 
 <a name="the_tech"></a>
+
 Intro to technology
 -------------------
 
