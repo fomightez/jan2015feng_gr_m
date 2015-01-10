@@ -6,7 +6,7 @@ The Google Docs link XXXX
 
 3:40am-5:30pm, January 15th, 2015.
 
-*[Getting started](getting_started.md)
+* [Getting started](getting_started.md)
 coding
 python
 python_basics
