@@ -14,6 +14,7 @@ Reload to get the latest links!
 Here's a Google Doc that we'll paste stuff into for easy passing of information.
 MAKE THIS!!!!!!
 
+<a name="prep"></a>
 Preparation
 ------------
 
@@ -36,6 +37,7 @@ Be sure to have a good text editor on your computer.
 Sounds like you may have been using AquaMac in the past and so this shouldn't be a problem. I highly recommend [Sublime Text](http://www.sublimetext.com/). However, for what we'll be doing Thursday, even TextWrangler on a Mac will be sufficient. For those not on a Mac, I'd recommend [Sublime Text](http://www.sublimetext.com/) or [Notepad++](http://notepad-plus-plus.org/) or jEdit.
 
 
+<a name="the_tech"></a>
 Intro to technology
 -------------------
 
