@@ -19,12 +19,12 @@ MAKE THIS!!!!!!
 Preparation
 -----------
 
-##### Read
+_Read_
 
 [Interactive notebooks: Sharing the code by Helen Shen. Nature. 2014 Nov 6;515(7525):151-2. doi: 10.1038/515151a. PMID: 25373681](http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261)
 
 
-##### Tech prep
+_Tech prep_
 
 Be sure you have a modern, updated browser on your system. Preferably Chrome or Firefox.
 
