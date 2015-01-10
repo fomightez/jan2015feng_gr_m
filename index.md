@@ -12,7 +12,7 @@ The Google Docs link XXXX
 
 * [Getting started](getting_started.md)
 	* [Preparation](getting_started.md#prep)
-	* [Cloud_based Tech](getting_started.md#the_tech)
+	* [Cloud-based Tech](getting_started.md#the_tech)
 coding
 python
 python_basics
