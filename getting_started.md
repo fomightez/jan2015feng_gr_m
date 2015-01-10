@@ -37,8 +37,8 @@ Sounds like you may have been using AquaMac in the past and so this shouldn't be
 
 
 Intro to technology
-
 -------------------
+
 We'll use as a group two technologies today.
 
 - [SourceLair](https://www.sourcelair.com/)
