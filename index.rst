@@ -17,3 +17,5 @@ The Google Docs link XXXX
    coding
    day1-afternoon
    sources
+   Recommended for next steps
+   Additional resources
