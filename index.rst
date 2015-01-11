@@ -16,3 +16,4 @@ The Google Docs link XXXX
    getting_started
    coding
    day1-afternoon
+   sources
