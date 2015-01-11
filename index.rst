@@ -10,16 +10,9 @@ The Google Docs link XXXX
 
 3:40am-5:30pm, January 15th, 2015.
 
-* [Getting started](getting_started.md)
-	* [Preparation](getting_started.md#prep)
-	* [Cloud-based Tech](getting_started.md#the_tech)
-* [Coding](coding.md)
-
 .. toctree::
    :maxdepth: 2
 
    getting_started
    coding
    day1-afternoon
-   
-
