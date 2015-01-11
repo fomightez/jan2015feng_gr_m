@@ -19,7 +19,7 @@ The Google Docs link XXXX
    :maxdepth: 2
 
    getting_started
-   coding
    day1-afternoon
+   coding
    
 
