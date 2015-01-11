@@ -14,23 +14,12 @@ The Google Docs link XXXX
 	* [Preparation](getting_started.md#prep)
 	* [Cloud-based Tech](getting_started.md#the_tech)
 * [Coding](coding.md)
-python
-python_basics
-wrapping-up
-
-Contents:
 
 .. toctree::
    :maxdepth: 2
-   
-   basics
+
    getting_started
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   coding
+   day1-afternoon
+   
 
