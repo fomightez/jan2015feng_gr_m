@@ -1,24 +1,22 @@
-.. markdown-guide documentation master file, created by
-   sphinx-quickstart on Wed Aug 15 10:20:33 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+January 2015 Introduction to Python coding workshop
+==================================================
 
-Welcome to markdown-guide's documentation!
-==========================================
+Introduction to coding in Python.
 
-.. pull-quote::
+A workshop for Feng Lab Group meeting.
 
-   Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing
-   people "to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally
-   valid XHTML (or HTML). 
 
-   Source: http://en.wikipedia.org/wiki/Markdown
+The Google Docs link XXXX
 
-This is a syntax guide designed to provide very clear, understandable examples of Markdown usage. It borrows from several
-sources including:
+3:40am-5:30pm, January 15th, 2015.
 
-* http://en.wikipedia.org/wiki/Markdown
-* http://daringfireball.net/projects/markdown/
+* [Getting started](getting_started.md)
+	* [Preparation](getting_started.md#prep)
+	* [Cloud-based Tech](getting_started.md#the_tech)
+* [Coding](coding.md)
+python
+python_basics
+wrapping-up
 
 Contents:
 
