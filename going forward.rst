@@ -57,14 +57,7 @@ NCBI with Python
 -  `BioPython in the Sky! Accessing online databases and running BLAST
    using BioPython…`_
 
-NGS Analysis
-~~~~~~~~~~~~
 
--  `Titus Brown and Colleagues’ Next-Gen Sequence Analysis Workshops`_,
-   most recent is [Next-Gen Sequence Analysis Workshop
-   (2014)(http://angus.readthedocs.org/en/2014/) *I printed this out.*
-   It also has an interesting condensed course he taught last year
-   called [2013 Zero-Entry Workshop: Computational
 
 .. _Practical Computing for Biologists book by Haddock and Dunn: http://practicalcomputing.org/
 .. _April 2013 Software Carpentry at Arizona: http://2013-swc-az.readthedocs.org/en/latest/index.html
@@ -86,3 +79,53 @@ NGS Analysis
 .. _“Why We Built Enthought Canopy, An Inside Look” Recorded Webinar: http://blog.enthought.com/general/why-we-built-canopy/#.VLNDKWTF85g
 .. _BioPython in the Sky! Accessing online databases and running BLAST using BioPython…: http://www.cbs.dtu.dk/courses/27624/IAH_2.pdf
 .. _Titus Brown and Colleagues’ Next-Gen Sequence Analysis Workshops: http://ged.msu.edu/angus/
+
+
+NGS Analysis
+~~~~~~~~~~~~
+
+-  `Titus Brown and Colleagues’ Next-Gen Sequence Analysis Workshops`_,
+   most recent is [Next-Gen Sequence Analysis Workshop
+   (2014)(http://angus.readthedocs.org/en/2014/) *I printed this out.*
+   It also has an interesting condensed course he taught last year
+   called [2013 Zero-Entry Workshop: Computational Science for
+   Biologists] (http://2013-uw-zero-entry.readthedocs.org/en/latest/).
+
+Intermediate Python and Integrating it with Other Tools
+-------------------------------------------------------
+
+-  `“Why We Built Enthought Canopy, An Inside Look” Recorded Webinar`_
+
+-  `Analyzing data with R in the IPython notebook`_
+
+-  `Filling in Python’s gaps in statistics packages with Rmagic`_
+
+-  `IPython and Plotly: A Rosetta Stone for MATLAB, R, Python, and Excel
+   plotting`_
+
+-  `Python for Economists`_ - primer covering a lot of the essentials
+
+ADVANCED
+--------
+
+Go beyond…
+----------
+
+`Filling in Python’s gaps in statistics packages with Rmagic`_
+
+`How I Like to Use Python (or ‘writing Software as a Scientist’)`_
+
+`The Top Mistakes Developers Make When Using Python for Big Data
+Analytics`_
+
+`Top 10 Data Science Skills, and How to Learn Them`_
+
+.. _Titus Brown and Colleagues’ Next-Gen Sequence Analysis Workshops: http://ged.msu.edu/angus/
+.. _“Why We Built Enthought Canopy, An Inside Look” Recorded Webinar: http://blog.enthought.com/general/why-we-built-canopy/#.VLNDKWTF85g
+.. _Analyzing data with R in the IPython notebook: http://nbviewer.ipython.org/github/dboyliao/cookbook-code/blob/master/notebooks/chapter07_stats/08_r.ipynb
+.. _Filling in Python’s gaps in statistics packages with Rmagic: http://www.randalolson.com/2013/01/14/filling-in-pythons-gaps-in-statistics-packages-with-rmagic/
+.. _`IPython and Plotly: A Rosetta Stone for MATLAB, R, Python, and Excel plotting`: http://nbviewer.ipython.org/gist/msund/61cdbd5b22c103fffb84
+.. _Python for Economists: http://cs.brown.edu/~ambell/pyseminar/Python_for_Economists.pdf
+.. _How I Like to Use Python (or ‘writing Software as a Scientist’): http://nanodatum.wordpress.com/2014/12/26/how-i-like-to-use-python-or-writing-software-as-a-scientist/
+.. _The Top Mistakes Developers Make When Using Python for Big Data Analytics: https://www.airpair.com/python/posts/top-mistakes-python-big-data-analytics
+.. _Top 10 Data Science Skills, and How to Learn Them: http://dataconomy.com/top-10-data-science-skills-and-how-to-learn-them
