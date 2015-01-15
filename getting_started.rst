@@ -1,53 +1,59 @@
 Getting started
 ===============
 
-
 Introductions
 -------------
-There's slides too
+
+There’s slides too
 
 Using this Web site
 -------------------
 
 Reload to get the latest links!
 
-Here's a Google Doc that we'll paste stuff into for easy passing of information.
-MAKE THIS!!!!!!
-
-<a name="prep"></a>
+`A Google Doc for sharing today`_
 
 Preparation
 -----------
 
 **Read**
 
-[Interactive notebooks: Sharing the code by Helen Shen. Nature. 2014 Nov 6;515(7525):151-2. doi: 10.1038/515151a. PMID: 25373681](http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261)
-
+`Interactive notebooks: Sharing the code by Helen Shen. Nature. 2014 Nov
+6;515(7525):151-2. doi: 10.1038/515151a. PMID: 25373681`_
 
 **Tech prep**
 
-Be sure you have a modern, updated browser on your system. Preferably Chrome or Firefox.
+Be sure you have a modern, updated browser on your system. Preferably
+Chrome or Firefox.
 
-Register and do the follow-up activation at [SourceLair](https://www.sourcelair.com/).
+Register and do the follow-up activation at `SourceLair`_.
 
-Register for [Sagemath Cloud](https://cloud.sagemath.com).
+Register for `Sagemath Cloud`_.
 
-Be sure to have a good text editor on your computer.
-Sounds like you may have been using AquaMac in the past and so this shouldn't be a problem. I highly recommend [Sublime Text](http://www.sublimetext.com/). However, for what we'll be doing Thursday, even TextWrangler on a Mac will be sufficient. For those not on a Mac, I'd recommend [Sublime Text](http://www.sublimetext.com/) or [Notepad++](http://notepad-plus-plus.org/) or jEdit.
-
-
-<a name="the_tech"></a>
+Be sure to have a good text editor on your computer. Sounds like you may
+have been using AquaMac in the past and so this shouldn’t be a problem.
+I highly recommend `Sublime Text`_. However, for what we’ll be doing
+Thursday, even TextWrangler on a Mac will be sufficient. For those not
+on a Mac, I’d recommend `Sublime Text`_ or `Notepad++`_ or jEdit.
 
 Intro to technology
 -------------------
 
-We'll use as a group two technologies today.
+We’ll use as a group two technologies today.
 
-- [SourceLair](https://www.sourcelair.com/)
+-  `SourceLair`_
 
-- [Sagemath Cloud](https://cloud.sagemath.com)
+-  `Sagemath Cloud`_
 
- The idea for using cloud-based tools is to make it easier upfront to get coding and then you can modify what you use as you develop your coding workflow preferences. (Sorry for needing two, but finding a good interface that has all the features desired and works on the Upstate network is not easy.)
+The idea for using cloud-based tools is to make it easier upfront to get
+coding and then you can modify what you use as you develop your coding
+workflow preferences. (Sorry for needing two, but finding a good
+interface that has all the features desired and works on the Upstate
+network is not easy.)
 
-
-
+.. _A Google Doc for sharing today: http://bit.ly/FengGoogleDoc
+.. _`Interactive notebooks: Sharing the code by Helen Shen. Nature. 2014 Nov 6;515(7525):151-2. doi: 10.1038/515151a. PMID: 25373681`: http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261
+.. _SourceLair: https://www.sourcelair.com/
+.. _Sagemath Cloud: https://cloud.sagemath.com
+.. _Sublime Text: http://www.sublimetext.com/
+.. _Notepad++: http://notepad-plus-plus.org/
