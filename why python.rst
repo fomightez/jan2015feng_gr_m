@@ -1,7 +1,10 @@
 Why Python
 ==========
 
-See slides up to ``Where to code and run Python?``
+Slides
+======
+
+The beginning is covering slides up to ``Where to code and run Python?``
 
 Where to code and run Python
 ============================
@@ -72,10 +75,6 @@ In Your Browser - Emulators (you won’t know it isn’t REALLY full-featured Py
 
 -  `repl.it`_
 
--  `Codepad`_
-
--  [Rex
-
 .. _Enthought’s Canopy Python disctributiona and Analysis Environment: https://www.enthought.com/products/epd/
 .. _Anaconda: https://store.continuum.io/cshop/anaconda/
 .. _IDLE on Windows PC: https://software.rc.fas.harvard.edu/training/scraping/install/
@@ -92,4 +91,9 @@ In Your Browser - Emulators (you won’t know it isn’t REALLY full-featured Py
 .. _CodeSkulptor: http://www.codeskulptor.org/
 .. _tutorialspoint: http://www.tutorialspoint.com/python/python_variable_types.htm
 .. _repl.it: http://repl.it/
+-  `Codepad`_
+
+-  `Rextester`_
+
 .. _Codepad: http://codepad.org/
+.. _Rextester: http://rextester.com/runcode
