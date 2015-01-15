@@ -40,31 +40,142 @@ Those steps will produce
 Now replace the example list in the code below and run the code of
 ``finding_genes_in_list_with_SGD_Systematic_Name.py`` found below.
 
-\`\`\` #!/usr/bin/env python
+::
 
-USAGE: TAKES A LIST OF GENES PROVIDED IN THE LONG SGD SYSTEMATIC NAME FORM
---------------------------------------------------------------------------
+    #!/usr/bin/env python
 
-AND COLLECTS MORE USER FRIENDLY VERSION OF NAME AND INFORMATION FOR EACH GENE.
-------------------------------------------------------------------------------
+    ## USAGE: TAKES A LIST OF GENES PROVIDED IN THE LONG SGD SYSTEMATIC NAME FORM
+    ## AND COLLECTS MORE USER FRIENDLY VERSION OF NAME AND INFORMATION FOR EACH GENE.
 
-Example input:
---------------
+    ## Example input:
+    ## ["YPR187W", "YPR202W"]
 
-[“YPR187W”, “YPR202W”]
-----------------------
+    ## Example output:
+    ## S000006391 YPR187W RPO26 RNA POlymerase S. cerevisiae Rpo26p RPB6 ABC23 ORF RNA polymerase subunit ABC23; common to RNA polymerases I, II, and III; part of central core; similar to bacterial omega subunit
+    ## S000006406 YPR202W None None S. cerevisiae None None ORF Putative protein of unknown function; similar to telomere-encoded helicases; down-regulated at low calcium levels; YPR202W is not an essential gene; transcript is predicted to be spliced but there is no evidence that it is spliced in vivo
 
-Example output:
----------------
+    # See the README.txt for this script at the link below for more information:
+    # https://github.com/fomightez/yeastmine
 
-S000006391 YPR187W RPO26 RNA POlymerase S. cerevisiae Rpo26p RPB6 ABC23 ORF RNA polymerase subunit ABC23; common to RNA polymerases I, II, and III; part of central core; similar to bacterial omega subunit
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ## IMPETUS FOR THIS SCRIPT:
+    ## Kawashima et al. 2014 [http://www.ncbi.nlm.nih.gov/pubmed/24722551] HAD
+    ## GOOD-SIZED GENE LISTS WITH SYSTEMATIC NAMES AS PART OF SOME TABLES AND I
+    # WANTED THE LIST IN A FORM THAT IS MORE INFORMATIVE AND HUMAN-READABLE.
+    ##
+    ## LATER ADDED THE CONCEPT OF BEING ABLE TO ADD FAVORITE GENES.
+    ## CURRENTLY FAVORITE GENES USE THE SGD 'STANDARD NAME' BECAUSE THAT IS
+    ## HOW I USUALLY TRACK THEM BUT YOU CAN CHANGE THAT BE PUTTING THEM IN THE
+    ## FORM YOU'D LIKE AND ADJUSTING THE CONDITIONAL THAT CHECKS THEM AGAINST THE
+    ## SGD GENE LIST.
 
-S000006406 YPR202W None None S. cerevisiae None None ORF Putative protein of unknown function; similar to telomere-encoded helicases; down-regulated at low calcium levels; YP
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-.. _Plotly: https://plot.ly/~wayne461/42/file-size-distribution-of-all-105222-protein-data-bank-entries-as-of-jan-7-2015/
-.. _Domino Data Lab: http://www.dominodatalab.com/
-.. _here: https://plot.ly/~wayne461/42/file-size-distribution-of-all-105222-protein-data-bank-entries-as-of-jan-7-2015/
-.. _YeastMine: http://yeastmine.yeastgenome.org/yeastmine/begin.do
-.. _Python web service API: http://yeastmine.yeastgenome.org/yeastmine/api.do?subtab=python
+    list_to_get_info_for = ["YPR063C", "YPR098C", "YPR132W", "YPR170W-B", "YPR187W", "YPR202W"]
+
+    #OPTIONAL - SEE BELOW
+    #my_favorite_genes = ["NMD2", "MUD1", "TAN1"]
+
+    # The following two lines will be needed in every python script:
+    import intermine
+    from intermine.webservice import Service
+    service = Service("http://yeastmine.yeastgenome.org/yeastmine/service")
+
+    # Get a new query on the class (table) you will be querying:
+    query = service.new_query("Gene")
+
+    # The view specifies the output columns
+    query.add_view(
+        "primaryIdentifier", "secondaryIdentifier", "symbol", "name",
+        "organism.shortName", "proteins.symbol",  "sgdAlias", "featureType", "description"
+    )
+
+    # This query's custom sort order is specified below:
+    query.add_sort_order("Gene.secondaryIdentifier", "ASC")
+
+
+    print "primaryIdentifier\tsecondaryIdentifier\tsymbol\tname\torganism.shortName\tproteins.symbol\tsgdAlias\tfeatureType\tdescription"
+
+
+    for row in query.rows():
+        if row["secondaryIdentifier"] in list_to_get_info_for:
+        #LIST OF FAVORITE GENES AND ADD AN 'AND' CONDITION TO ABOVE LINE TO LIMIT TO YOUR FAVORITE GENES, like so:
+        #if (row["secondaryIdentifier"] in list_to_get_info_for) & (row["symbol"] in my_favorite_genes):
+            print row["primaryIdentifier"], row["secondaryIdentifier"], row["symbol"], row["name"], \
+                row["organism.shortName"], row["proteins.symbol"], row["sgdAlias"], row["featureType"], \
+                 row["description"]
+
+
+NCBI
+----
+
+`NCBI Entrez server`_ via Biopython
+
+INSTALLATION NEEDED?
+
+.. _NCBI Entrez server: http://www.ncbi.nlm.nih.gov/books/NBK25501/
+
+
+
+::
+
+    from Bio import Entrez
+    Entrez.email = "YOUR_EMAIL_GOES HERE" #so NCBI can contact you if you abuse system
+
+    protein_accn_numbers = ["ABR17211.1", "XP_002864745.1", "AAT45004.1", "XP_003642916.1" ]
+    protein_gi_numbers = []
+
+    print "The Accession numbers for protein sequence provided:"
+    print protein_accn_numbers
+
+    #ESearch
+    print "\nBeginning the ESearch..."
+    # BE CAREFUL TO NOT ABUSE THE NCBI SYSTEM.
+    # see http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec119 for information.
+    # For example, if searching with more than 100 records, you'd need to do this ESearch step
+    # on weekends or outside USA peak times.
+    for accn in protein_accn_numbers:
+        esearch_handle = Entrez.esearch(db="protein", term=accn)
+        esearch_result= Entrez.read(esearch_handle)
+        esearch_handle.close()
+        #print esearch_result
+        #print esearch_result["IdList"][0]
+        protein_gi_numbers.append(esearch_result["IdList"][0])
+    #print protein_gi_numbers
+
+    retrieved_mRNA_uids = []
+    #ELink
+    print "Beginning the ELink step..."
+    handle = Entrez.elink(dbfrom="protein", db="nuccore", LinkName="protein_nuccore_mrna", id=protein_gi_numbers)
+    result = Entrez.read(handle)
+    handle.close()
+    #print result
+    for each_record in result:
+        mrna_id = each_record["LinkSetDb"][0]["Link"][0]["Id"]
+        retrieved_mRNA_uids.append(mrna_id)
+    #print retrieved_mRNA_uids
+
+    #EPost
+    print "Beginning the EPost step..."
+    epost_handle = Entrez.epost(db="nuccore", id=",".join(retrieved_mRNA_uids))
+    epost_result = Entrez.read(epost_handle)
+    epost_handle.close()
+
+    webenv = epost_result["WebEnv"]
+    query_key = epost_result["QueryKey"]
+
+    #EFetch
+    print "Beginning the EFetch step..."
+    count = len(retrieved_mRNA_uids)
+    batch_size = 20
+    the_records = ""
+    for start in range(0, count, batch_size):
+        end = min(count, start + batch_size)
+        print("Fetching records %i thru %i..." % (start + 1, end))
+        fetch_handle = Entrez.efetch(db="nuccore",
+                                     rettype="fasta", retmode="text",
+                                     retstart=start, retmax=batch_size,
+                                     webenv=webenv,
+                                     query_key=query_key)
+        data = fetch_handle.read()
+        fetch_handle.close()
+        the_records = the_records + data
+    print the_records
