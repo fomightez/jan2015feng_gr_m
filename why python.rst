@@ -4,7 +4,7 @@ Why Python
 Slides
 ------
 
-`Slide link`_ The beginning is covering slides up to
+`Slides link`_ The beginning is covering slides up to
 ``Where to code and run Python?``
 
 .. _Slide link: http://fomightez.github.io/JanFifteenth_slides/#/
