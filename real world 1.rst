@@ -1,193 +1,161 @@
-Real World Examples II: Using APIs
-==================================
+Real World Examples I: Running Other’s Python code
+==================================================
 
-Plotly
-------
+Methods sections are good for finding what others used and then now you
+can use
 
-`Plotly`_
+NGS Analysis with Python
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-This will be a non-interactive demo of a script running on `Domino Data
-Lab`_.
+-  `Miles et al. 2013. Xbp1 Directs Global Repression of Budding Yeast
+   Transcription during the Transition to Quiescence and Is Important
+   for the Longevity and Reversibility of the Quiescent State. PMID:
+   24204289`_
 
-1. Look at date and stats of plot `here`_
+    The W303 reference genome in FASTA format and gene annotations in
+    GFF were obtained from the Wellcome Trust Sanger Institute’s SGRP
+    group. Sequences from each read were mapped to the Saccharomyces
+    cerevisiae W303 reference genome using the Tophat application, a
+    fast splice junction mapper for RNA-Seq reads [75]. Representation
+    of RNA from annotated genes were assessed using HTSeq, a Python
+    package developed by Simon Anders at EMBL Heidelberg, with
+    quantitative expression calculated proportional to the number of
+    reads per length of the modeled exon (MRPKBME). Finally,
+    differential gene representation between treatments were assessed
+    using the R/Bioconductor package DESeq [76].
 
-2. Script will be run.
+-`HTSeq`_ see manuscript at
+http://biorxiv.org/content/biorxiv/early/2014/02/20/002824.full.pdf
+Simon Anders, Paul Theodor Pyl, Wolfgang Huber HTSeq — A Python
+framework to work with high-throughput sequencing data Bioinformatics
+(2014), in print, online at doi:10.1093/bioinformatics/btu638
 
-3. Look at date and stats of plot `here`_
+    While the main purpose of HTSeq is to allow you to write your own
+    analysis scripts, customized to your needs, there are also a couple
+    of stand-alone scripts for common tasks that can be used without any
+    Python knowledge. See the Scripts section in the overview below for
+    what is available.
 
-Yeastmine
----------
+-  `RSeQC: An RNA-seq Quality Control Package`_ Example:
 
-`YeastMine`_ has a `Python web service API`_
+    geneBody\_coverage.py
 
-More information about YeastMine:
+    Read coverage over gene body. This module is used to check if reads
+    coverage is uniform and if there is any 5’/3’ bias. This module
+    scales all transcripts to 100 nt and calculates the number of reads
+    covering each nucleotide position. Finally, it generates a plot
+    illustrating the coverage profile along the gene body. NOTE: this
+    module requires lots of memory for large BAM files, because it load
+    the entire BAM file into memory. We add another script
+    “geneBody\_coverage2.py” into v2.3.1 which takes bigwig (instead of
+    BAM) as input. It only use 200M RAM, but users need to convert BAM
+    into WIG, and then WIG into BigWig.
 
--  `Page about it at Saccharomyces Genome Database(SGD)`_
+.. _`Miles et al. 2013. Xbp1 Directs Global Repression of Budding Yeast Transcription during the Transition to Quiescence and Is Important for the Longevity and Reversibility of the Quiescent State. PMID: 24204289`: http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1003854
+.. _HTSeq: http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html
+.. _`RSeQC: An RNA-seq Quality Control Package`: http://dldcc-web.brc.bcm.edu/lilab/liguow/CGI/rseqc/_build/html/
 
--  `Paper about implementing Intermine system with SGD to make
-   YeastMine`_
+-  `PyCrac`_ Example from `Webb et al 2014. PAR-CLIP data indicate that
+   Nrd1-Nab3-dependent transcription termination regulates expression of
+   hundreds of protein coding genes in yeast. PMID: 24393166.`_ Use of
+   several scripts illustrated in `Figure 1`_
 
-I’ll demo of where to get Python code fragments for designed queries.
+-  NGS analysis using `The Eel Pond mRNAseq Protocol`_
 
-Example of integrating YeastMine code fragments into your work
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Once you can run Python, you can use others’ code
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _YeastMine: http://yeastmine.yeastgenome.org/yeastmine/begin.do
-.. _Python web service API: http://yeastmine.yeastgenome.org/yeastmine/api.do?subtab=python
-.. _Page about it at Saccharomyces Genome Database(SGD): http://www.yeastgenome.org/help/analyze/yeastmine-help-page
-.. _Paper about implementing Intermine system with SGD to make YeastMine: http://www.ncbi.nlm.nih.gov/pubmed/22434830
+Github and materials and methods are great resources as well.
 
-Plan:
+Example 1
+~~~~~~~~~
 
-Use Yeastmine to convert information into a table into more useful form.
+`Annotate: Annotation of single-nucleotide variants in the yeast
+genome`_
 
-Initial steps will be non-interactive in the interest of time.
+Alright let’s see if we can run this
 
-Those steps will produce
+What so we need?
 
-::
-
-    table_4_gene_list = ["YBL091C-A", "YBL059W", "YBR090C", "YBR186W", "YBR219C", "YBR230C", "YCL005W-A_1", "YCL005W-A_2", "YCR028C-A", "YCR097W_2", "YDL219W", "YDL189W", "YDL137W", "YDL125C", "YDL082W", "YDL079C", "YDL064W", "YDR059C", "YDR099W", "YDR305C", "YDR318W", "YDR367W", "YDR381W", "YDR381C-A", "YDR535C", "YER003C", "YER007C-A", "YER014C-A", "YER044C-A", "YER131W", "YER179W", "YFL039C", "YFL034C-B", "YFL031W", "YFR045W", "YGL251C", "YGL187C", "YGL183C", "YGL033W", "YGR029W", "YGR183C", "YGR225W", "YHR012W", "YHR039C-A", "YHR041C", "YHR079C-A", "YHR123W", "YHR141C", "YHR218W", "YIL148W", "YIL111W", "YIL073C", "YIL004C", "YJL189W", "YJL041W", "YJL031C", "YJL024C", "YJR079W", "YJR094W-A", "YJR112W-A", "YKL006C-A", "YKR005C", "YLL050C", "YLR054C", "YLR078C", "YLR128W", "YLR199C", "YLR202C", "YLR211C", "YLR275W", "YLR333C", "YLR445W", "YML085C", "YML067C", "YML036W", "YML025C", "YML024W", "YML017W", "YMR194C-B", "YMR242C", "YMR292W", "YNL312W", "YNL138W-A", "YNL130C", "YNL066W", "YNL050C", "YNL044W", "YNR053C", "YOL047C", "snR17A", "YOR318C", "YPL241C", "YPL230W", "snR17B", "YPR010C-A", "YPR153W"]
-
-Now replace the example list in the code below and run the code of
-``finding_genes_in_list_with_SGD_Systematic_Name.py`` found below.
-
-::
-
-    #!/usr/bin/env python
-
-    ## USAGE: TAKES A LIST OF GENES PROVIDED IN THE LONG SGD SYSTEMATIC NAME FORM
-    ## AND COLLECTS MORE USER FRIENDLY VERSION OF NAME AND INFORMATION FOR EACH GENE.
-
-    ## Example input:
-    ## ["YPR187W", "YPR202W"]
-
-    ## Example output:
-    ## S000006391 YPR187W RPO26 RNA POlymerase S. cerevisiae Rpo26p RPB6 ABC23 ORF RNA polymerase subunit ABC23; common to RNA polymerases I, II, and III; part of central core; similar to bacterial omega subunit
-    ## S000006406 YPR202W None None S. cerevisiae None None ORF Putative protein of unknown function; similar to telomere-encoded helicases; down-regulated at low calcium levels; YPR202W is not an essential gene; transcript is predicted to be spliced but there is no evidence that it is spliced in vivo
-
-    # See the README.txt for this script at the link below for more information:
-    # https://github.com/fomightez/yeastmine
-
-    ## IMPETUS FOR THIS SCRIPT:
-    ## Kawashima et al. 2014 [http://www.ncbi.nlm.nih.gov/pubmed/24722551] HAD
-    ## GOOD-SIZED GENE LISTS WITH SYSTEMATIC NAMES AS PART OF SOME TABLES AND I
-    # WANTED THE LIST IN A FORM THAT IS MORE INFORMATIVE AND HUMAN-READABLE.
-    ##
-    ## LATER ADDED THE CONCEPT OF BEING ABLE TO ADD FAVORITE GENES.
-    ## CURRENTLY FAVORITE GENES USE THE SGD 'STANDARD NAME' BECAUSE THAT IS
-    ## HOW I USUALLY TRACK THEM BUT YOU CAN CHANGE THAT BE PUTTING THEM IN THE
-    ## FORM YOU'D LIKE AND ADJUSTING THE CONDITIONAL THAT CHECKS THEM AGAINST THE
-    ## SGD GENE LIST.
-
-
-    list_to_get_info_for = ["YPR063C", "YPR098C", "YPR132W", "YPR170W-B", "YPR187W", "YPR202W"]
-
-    #OPTIONAL - SEE BELOW
-    #my_favorite_genes = ["NMD2", "MUD1", "TAN1"]
-
-    # The following two lines will be needed in every python script:
-    import intermine
-    from intermine.webservice import Service
-    service = Service("http://yeastmine.yeastgenome.org/yeastmine/service")
-
-    # Get a new query on the class (table) you will be querying:
-    query = service.new_query("Gene")
-
-    # The view specifies the output columns
-    query.add_view(
-        "primaryIdentifier", "secondaryIdentifier", "symbol", "name",
-        "organism.shortName", "proteins.symbol",  "sgdAlias", "featureType", "description"
-    )
-
-    # This query's custom sort order is specified below:
-    query.add_sort_order("Gene.secondaryIdentifier", "ASC")
-
-
-    print "primaryIdentifier\tsecondaryIdentifier\tsymbol\tname\torganism.shortName\tproteins.symbol\tsgdAlias\tfeatureType\tdescription"
-
-
-    for row in query.rows():
-        if row["secondaryIdentifier"] in list_to_get_info_for:
-        #LIST OF FAVORITE GENES AND ADD AN 'AND' CONDITION TO ABOVE LINE TO LIMIT TO YOUR FAVORITE GENES, like so:
-        #if (row["secondaryIdentifier"] in list_to_get_info_for) & (row["symbol"] in my_favorite_genes):
-            print row["primaryIdentifier"], row["secondaryIdentifier"], row["symbol"], row["name"], \
-                row["organism.shortName"], row["proteins.symbol"], row["sgdAlias"], row["featureType"], \
-                 row["description"]
-
-
-NCBI
-----
-
-`NCBI Entrez server`_ via Biopython
-
-INSTALLATION NEEDED?
-
-.. _NCBI Entrez server: http://www.ncbi.nlm.nih.gov/books/NBK25501/
-
-
+.. _PyCrac: http://sandergranneman.bio.ed.ac.uk/Granneman_Lab/pyCRAC_software.html
+.. _`Webb et al 2014. PAR-CLIP data indicate that Nrd1-Nab3-dependent transcription termination regulates expression of hundreds of protein coding genes in yeast. PMID: 24393166.`: http://www.ncbi.nlm.nih.gov/pubmed/24393166
+.. _Figure 1: http://genomebiology.com/2014/15/1/R8/figure/F1
+.. _The Eel Pond mRNAseq Protocol: https://khmer-protocols.readthedocs.org/en/v0.8.4/mrnaseq/
+.. _`Annotate: Annotation of single-nucleotide variants in the yeast genome`: http://depts.washington.edu/sfields/software/annotate/
 
 ::
 
-    from Bio import Entrez
-    Entrez.email = "YOUR_EMAIL_GOES HERE" #so NCBI can contact you if you abuse system
+    =Required Files=
+    Four files are required by Annotate:
 
-    protein_accn_numbers = ["ABR17211.1", "XP_002864745.1", "AAT45004.1", "XP_003642916.1" ]
-    protein_gi_numbers = []
+    1) A BED-formatted file containing mutations. The first five columns of this file must be
 
-    print "The Accession numbers for protein sequence provided:"
-    print protein_accn_numbers
+    chr start   stop    ref obs
 
-    #ESearch
-    print "\nBeginning the ESearch..."
-    # BE CAREFUL TO NOT ABUSE THE NCBI SYSTEM.
-    # see http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec119 for information.
-    # For example, if searching with more than 100 records, you'd need to do this ESearch step
-    # on weekends or outside USA peak times.
-    for accn in protein_accn_numbers:
-        esearch_handle = Entrez.esearch(db="protein", term=accn)
-        esearch_result= Entrez.read(esearch_handle)
-        esearch_handle.close()
-        #print esearch_result
-        #print esearch_result["IdList"][0]
-        protein_gi_numbers.append(esearch_result["IdList"][0])
-    #print protein_gi_numbers
+    which are the chromosome of the mutation, the start and stop positions (which can be the same number, for a single-base mutation), the reference allele at that position, and the observed allele (i.e., the mutation). Mutations are then listed one per line. Extra information can be included in the columns to the right of these. Mutation start and stop positions are 1-indexed.
 
-    retrieved_mRNA_uids = []
-    #ELink
-    print "Beginning the ELink step..."
-    handle = Entrez.elink(dbfrom="protein", db="nuccore", LinkName="protein_nuccore_mrna", id=protein_gi_numbers)
-    result = Entrez.read(handle)
-    handle.close()
-    #print result
-    for each_record in result:
-        mrna_id = each_record["LinkSetDb"][0]["Link"][0]["Id"]
-        retrieved_mRNA_uids.append(mrna_id)
-    #print retrieved_mRNA_uids
+    2) A FASTA file containing the reference genome sequence, in which each chromosome is its own sequence.
 
-    #EPost
-    print "Beginning the EPost step..."
-    epost_handle = Entrez.epost(db="nuccore", id=",".join(retrieved_mRNA_uids))
-    epost_result = Entrez.read(epost_handle)
-    epost_handle.close()
+    3) A FASTA file containing the reference coding sequences, in which each gene is its own sequence. Currently, the positional information for each gene is parsed from the headers of this file. As such, it is very important to use the same file as is provided by SGD or with this software.
 
-    webenv = epost_result["WebEnv"]
-    query_key = epost_result["QueryKey"]
+    4) A .GFF-formatted file containing functional non-coding genomic regions.
 
-    #EFetch
-    print "Beginning the EFetch step..."
-    count = len(retrieved_mRNA_uids)
-    batch_size = 20
-    the_records = ""
-    for start in range(0, count, batch_size):
-        end = min(count, start + batch_size)
-        print("Fetching records %i thru %i..." % (start + 1, end))
-        fetch_handle = Entrez.efetch(db="nuccore",
-                                     rettype="fasta", retmode="text",
-                                     retstart=start, retmax=batch_size,
-                                     webenv=webenv,
-                                     query_key=query_key)
-        data = fetch_handle.read()
-        fetch_handle.close()
-        the_records = the_records + data
-    print the_records
+    Files 2-4 are supplied with Annotate. The most up-to-date versions of these files can be found at the Saccharomyces Genome Database (http://www.yeastgenome.org/download-data/sequence). These files are also based on the most recent S.cerevisiae genome sequence (Saccer3). As such, mutations in the file 1 should be based on Saccer3; mutations called in reference to Saccer2 or a different genome assembly will yield incorrect results.
+
+
+    ==Running Annotate==
+    Annotate is run by executing the annotate.py script (as below), which includes passing some required options that direct the script to the files listed above.
+
+    python annotate.py --mutations FILE1 --genome FILE2 --coding FILE3 --non-coding FILE4
+
+    Depending on the processing speed of your system, Annotate takes about 60 seconds to process 1000 mutations.
+
+
+    ==Required Options==
+    -m, --mutations : BED file containing mutations
+    -g, --genome : FASTA file containing genome sequence
+    -c, --coding: FASTA file of coding sequences
+    -n, --non-coding: GFF file containing non-coding regions
+
+
+    ==Optional Options==
+    -h, --help : Print all options, usage information
+    --upstream : Distance (in bp) upstream of gene start codons to include in 5'-upstream annotation (default=500)
+
+I’ll supply a BED file containing mutations, called
+`mutation\_data.bed`_.
+
+Looks like the command would then be….
+
+``python annotate.py --mutations mutation_data.bed --genome S288C_reference_sequence_R64-1-1_20110203.fsa --coding orf_coding_all_R64-1-1_20110203.fasta --non-coding saccharomyces_cerevisiae_R64-1-1_20110208.gff.filtered``
+
+FAILS?!?!?!
+
+Looks good according to documentation. What is going on?
+
+Look at ``annotate.py`` file some.
+
+hmmm….
+``python annotate.py --input mutation_data.bed --genome S288C_reference_sequence_R64-1-1_20110203.fsa --sequences orf_coding_all_R64-1-1_20110203.fasta --non-coding saccharomyces_cerevisiae_R64-1-1_20110208.gff.filtered``
+
+Hooray!!!
+
+Example 2
+~~~~~~~~~
+
+This one will be non-interactive.
+
+`HTSeq`_ see manuscript at
+http://biorxiv.org/content/biorxiv/early/2014/02/20/002824.full.pdf
+Simon Anders, Paul Theodor Pyl, Wolfgang Huber HTSeq — A Python
+framework to work with high-throughput sequencing data Bioinformatics
+(2014), in print, online at doi:10.1093/bioinformatics/btu638
+
+    While the main purpose of HTSeq is to allow you to write your own
+    analysis scripts, customized to your needs, there are also a couple
+    of stand-alone scripts for common tasks that can be used without any
+    Python knowledge. See the Scripts section in the overview below for
+    what is available.
+
+.. _mutation\_data.bed: https://gist.githubusercontent.com/fomightez/9c435b0f18bf659a4669/raw/54d514b1fa9ce57ec46c5527fbd1eaf3236943e0/mutation_data.bed
+.. _HTSeq: http://www-huber.embl.de/users/anders/HTSeq/doc/install.html#installation-on-macos-x
