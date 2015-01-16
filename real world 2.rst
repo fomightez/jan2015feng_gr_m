@@ -20,10 +20,22 @@ Yeastmine
 
 `YeastMine`_ has a `Python web service API`_
 
-Demo of where to get Python code fragments for designed queries
+More information about YeastMine:
 
-Example integrating that into your work
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-  `Page about it at Saccharomyces Genome Database(SGD)`_
+
+-  `Paper about implementing Intermine system with SGD to make
+   YeastMine`_
+
+I’ll demo of where to get Python code fragments for designed queries.
+
+Example of integrating YeastMine code fragments into your work
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. _YeastMine: http://yeastmine.yeastgenome.org/yeastmine/begin.do
+.. _Python web service API: http://yeastmine.yeastgenome.org/yeastmine/api.do?subtab=python
+.. _Page about it at Saccharomyces Genome Database (SGD): http://www.yeastgenome.org/help/analyze/yeastmine-help-page
+.. _Paper about implementing Intermine system with SGD to make YeastMine: http://www.ncbi.nlm.nih.gov/pubmed/22434830
 
 Plan:
 
