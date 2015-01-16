@@ -4,7 +4,7 @@ Python for today
 Getting started, we’ll use Sourcelair and Sagemath Cloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`SourceLair`_\ \*
+`SourceLair`_\ 
 
 `Guide to Python on Sourcelair`_
 
