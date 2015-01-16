@@ -2,7 +2,7 @@ Why Python
 ==========
 
 Slides
-======
+~~~~~~
 
 The beginning is covering slides up to ``Where to code and run Python?``
 
