@@ -62,7 +62,7 @@ framework to work with high-throughput sequencing data Bioinformatics
 
 -  NGS analysis using `The Eel Pond mRNAseq Protocol`_
 
-Once you can run Python, you can user others’ code
+Once you can run Python, you can use others’ code
 ==================================================
 
 Github and materials and methods are great resources as well.
