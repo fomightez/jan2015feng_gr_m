@@ -4,7 +4,9 @@ Python for today
 Getting started, we’ll use Sourcelair and Sagemath Cloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`SourceLair`_\ \* `Guide to Python on Sourcelair`_
+`SourceLair`_\ \*
+
+`Guide to Python on Sourcelair`_
 
 `Sagemath Cloud`_ enables cloud-based IPython notebook work. An
 introduction can be found [here](
