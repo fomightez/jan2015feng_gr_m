@@ -2,9 +2,12 @@ Why Python
 ==========
 
 Slides
-~~~~~~
+------
 
-The beginning is covering slides up to ``Where to code and run Python?``
+`Slide link`_ The beginning is covering slides up to
+``Where to code and run Python?``
+
+.. _Slide link: http://fomightez.github.io/JanFifteenth_slides/#/
 
 Where to code and run Python
 ============================
