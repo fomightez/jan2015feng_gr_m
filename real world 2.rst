@@ -22,7 +22,7 @@ Yeastmine
 
 More information about YeastMine:
 
--  `Page about it at Saccharomyces Genome Database(SGD)`_
+-  `Page about it at Saccharomyces Genome Database (SGD)`_
 
 -  `Paper about implementing Intermine system with SGD to make
    YeastMine`_
