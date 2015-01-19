@@ -264,8 +264,10 @@ Example 2
 This one will be non-interactive.
 
 `HTSeq <http://www-huber.embl.de/users/anders/HTSeq/doc/install.html#installation-on-macos-x>`__
+
 see manuscript at
 http://biorxiv.org/content/biorxiv/early/2014/02/20/002824.full.pdf
+
 Simon Anders, Paul Theodor Pyl, Wolfgang Huber HTSeq — A Python
 framework to work with high-throughput sequencing data Bioinformatics
 (2014), in print, online at doi:10.1093/bioinformatics/btu638
