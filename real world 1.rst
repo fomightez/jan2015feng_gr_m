@@ -1,4 +1,8 @@
-Real World Examples I: Running Other’s Python code
+.. contents::
+   :depth: 3.0
+..
+
+Real World Examples I: Running Other's Python code
 ==================================================
 
 Methods sections are good for finding what others used and then now you
@@ -10,10 +14,10 @@ NGS Analysis with Python
 -  `Miles et al. 2013. Xbp1 Directs Global Repression of Budding Yeast
    Transcription during the Transition to Quiescence and Is Important
    for the Longevity and Reversibility of the Quiescent State. PMID:
-   24204289`_
+   24204289 <http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1003854>`__
 
     The W303 reference genome in FASTA format and gene annotations in
-    GFF were obtained from the Wellcome Trust Sanger Institute’s SGRP
+    GFF were obtained from the Wellcome Trust Sanger Institute's SGRP
     group. Sequences from each read were mapped to the Saccharomyces
     cerevisiae W303 reference genome using the Tophat application, a
     fast splice junction mapper for RNA-Seq reads [75]. Representation
@@ -24,7 +28,8 @@ NGS Analysis with Python
     differential gene representation between treatments were assessed
     using the R/Bioconductor package DESeq [76].
 
--`HTSeq`_ see manuscript at
+-`HTSeq <http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html>`__
+see manuscript at
 http://biorxiv.org/content/biorxiv/early/2014/02/20/002824.full.pdf
 Simon Anders, Paul Theodor Pyl, Wolfgang Huber HTSeq — A Python
 framework to work with high-throughput sequencing data Bioinformatics
@@ -36,7 +41,9 @@ framework to work with high-throughput sequencing data Bioinformatics
     Python knowledge. See the Scripts section in the overview below for
     what is available.
 
--  `RSeQC: An RNA-seq Quality Control Package`_ Example:
+-  `RSeQC: An RNA-seq Quality Control
+   Package <http://dldcc-web.brc.bcm.edu/lilab/liguow/CGI/rseqc/_build/html/>`__
+   Example:
 
     geneBody\_coverage.py
 
@@ -51,19 +58,19 @@ framework to work with high-throughput sequencing data Bioinformatics
     BAM) as input. It only use 200M RAM, but users need to convert BAM
     into WIG, and then WIG into BigWig.
 
-.. _`Miles et al. 2013. Xbp1 Directs Global Repression of Budding Yeast Transcription during the Transition to Quiescence and Is Important for the Longevity and Reversibility of the Quiescent State. PMID: 24204289`: http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1003854
-.. _HTSeq: http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html
-.. _`RSeQC: An RNA-seq Quality Control Package`: http://dldcc-web.brc.bcm.edu/lilab/liguow/CGI/rseqc/_build/html/
-
--  `PyCrac`_ Example from `Webb et al 2014. PAR-CLIP data indicate that
+-  `PyCrac <http://sandergranneman.bio.ed.ac.uk/Granneman_Lab/pyCRAC_software.html>`__
+   Example from `Webb et al 2014. PAR-CLIP data indicate that
    Nrd1-Nab3-dependent transcription termination regulates expression of
-   hundreds of protein coding genes in yeast. PMID: 24393166.`_ Use of
-   several scripts illustrated in `Figure 1`_
+   hundreds of protein coding genes in yeast. PMID:
+   24393166. <http://www.ncbi.nlm.nih.gov/pubmed/24393166>`__ Use of
+   several scripts illustrated in `Figure
+   1 <http://genomebiology.com/2014/15/1/R8/figure/F1>`__
 
--  NGS analysis using `The Eel Pond mRNAseq Protocol`_
+-  NGS analysis using `The Eel Pond mRNAseq
+   Protocol <https://khmer-protocols.readthedocs.org/en/v0.8.4/mrnaseq/>`__
 
-Once you can run Python, you can use others’ code
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Once you can run Python, you can use others' code
+-------------------------------------------------
 
 Github and materials and methods are great resources as well.
 
@@ -71,17 +78,14 @@ Example 1
 ~~~~~~~~~
 
 `Annotate: Annotation of single-nucleotide variants in the yeast
-genome`_
+genome <http://depts.washington.edu/sfields/software/annotate/>`__
 
-Alright let’s see if we can run this
+Alright let's see if we can run this.
 
 What so we need?
 
-.. _PyCrac: http://sandergranneman.bio.ed.ac.uk/Granneman_Lab/pyCRAC_software.html
-.. _`Webb et al 2014. PAR-CLIP data indicate that Nrd1-Nab3-dependent transcription termination regulates expression of hundreds of protein coding genes in yeast. PMID: 24393166.`: http://www.ncbi.nlm.nih.gov/pubmed/24393166
-.. _Figure 1: http://genomebiology.com/2014/15/1/R8/figure/F1
-.. _The Eel Pond mRNAseq Protocol: https://khmer-protocols.readthedocs.org/en/v0.8.4/mrnaseq/
-.. _`Annotate: Annotation of single-nucleotide variants in the yeast genome`: http://depts.washington.edu/sfields/software/annotate/
+Looking at the excerpt from the documentation below starts to give you a
+feel for what you need.
 
 ::
 
@@ -122,30 +126,139 @@ What so we need?
     -h, --help : Print all options, usage information
     --upstream : Distance (in bp) upstream of gene start codons to include in 5'-upstream annotation (default=500)
 
-I’ll supply a BED file containing mutations, called
-`mutation\_data.bed`_.
+Download the source file package and unpack it
+''''''''''''''''''''''''''''''''''''''''''''''
 
-Looks like the command would then be….
+The limit of dragging and dropping from a local file system up to
+SourceLair is file size up to 5 Mb, therefor use the terminal within
+SourceLair to directly download the archived files to SourceLair.
 
-``python annotate.py --mutations mutation_data.bed --genome S288C_reference_sequence_R64-1-1_20110203.fsa --coding orf_coding_all_R64-1-1_20110203.fasta --non-coding saccharomyces_cerevisiae_R64-1-1_20110208.gff.filtered``
+There are two popular commands to do this, ``curl`` and ``wget``. Both
+are illustrated, but you just need to do one. Additionally the command
+to unpack the arcvhive is included with each. Note that despite the
+extension indicating it is a ``tar.gz`` or gzipped tarball, it appears
+to only be a ``.tar`` archive and so you just need the ``tar`` command
+to extract.
 
-FAILS?!?!?!
+::
+
+    curl http://depts.washington.edu/sfields/software/annotate/src/Annotate-0.1.tar.gz > Annotate.tar
+    tar -xf Annotate.tar
+
+-OR-
+
+::
+
+    wget http://depts.washington.edu/sfields/software/annotate/src/Annotate-0.1.tar.gz
+    tar -xf Annotate-0.1.tar.gz
+
+Navigate into the unpacked directory now.
+
+::
+
+    cd Annotate-0.1
+
+You'll see from the documentation that 3 of the four files needed to run
+this script on the yeast genome are included in the archive with the
+original source. Now that you have the script and the accompanying files
+unpacked, you just need some data listing mutations.
+
+I am supplying a BED file containing mutations, called
+`mutation\_data.bed <https://gist.githubusercontent.com/fomightez/9c435b0f18bf659a4669/raw/54d514b1fa9ce57ec46c5527fbd1eaf3236943e0/mutation_data.bed>`__.
+
+The wget command you need to run on the SourceLair command line terminal
+to download the file is given below. You could of course use ``curl`` if
+you prefer and can use the above command where it was used as a guide to
+writing it. It is important here that the resulting file have the name
+``mutation_data.bed`` or be prepared to modify the commands illustrated
+below accordingly. (Alternatively you could click the name above and
+download it locally and then drag into the SoureLair file pane since it
+is a small file.)
+
+::
+
+    wget https://gist.githubusercontent.com/fomightez/9c435b0f18bf659a4669/raw/54d514b1fa9ce57ec46c5527fbd1eaf3236943e0/mutation_data.bed
+
+Unless you have previously installed the Biopython module in your
+current SourceLair project, you'll get an error if you try to run the
+``annotate.py`` script at this point.
+
+::
+
+    wayne461@scripts:/mnt/project/Annotate-0.1$ python annotate.py
+    Traceback (most recent call last):
+      File "annotate.py", line 242, in <module>
+        from Bio import SeqIO
+    ImportError: No module named Bio
+
+You simply need to install the needed module to your SourceLair project.
+At the command line terminal of your SourceLair project, type the
+following to install the Biopython module.
+
+::
+
+    pip install biopython
+
+Looks like from the documentation the command would then be....
+
+::
+
+    python annotate.py --mutations mutation_data.bed --genome S288C_reference_sequence_R64-1-1_20110203.fsa --coding orf_coding_all_R64-1-1_20110203.fasta --non-coding saccharomyces_cerevisiae_R64-1-1_20110208.gff.filtered`
+
+Running that unexpectedly FAILS?!?!?!
 
 Looks good according to documentation. What is going on?
 
-Look at ``annotate.py`` file some.
+Look at ``annotate.py`` file some. Specifically the doc string at the
+top and the text about arguments at the very end. Two don't match what
+the documentation says. The code is going to run what is in the code; it
+doesn't know about the documentation page.
 
-hmmm….
-``python annotate.py --input mutation_data.bed --genome S288C_reference_sequence_R64-1-1_20110203.fsa --sequences orf_coding_all_R64-1-1_20110203.fasta --non-coding saccharomyces_cerevisiae_R64-1-1_20110208.gff.filtered``
+Let's try that command again modifying it to match what the script
+itself says.
 
-Hooray!!!
+::
+
+    python annotate.py --input mutation_data.bed --genome S288C_reference_sequence_R64-1-1_20110203.fsa --sequences orf_coding_all_R64-1-1_20110203.fasta --non-coding saccharomyces_cerevisiae_R64-1-1_20110208.gff.filtered
+
+To view the result you can type the following. (Alternatively you can
+double-click on the file ``mutation_data.bed.annotated`` in SourceLair's
+file navigation panel. You may first need to reload the browser page to
+even see it listed in the file navigation pane though.)
+
+::
+
+    head mutation_data.bed.annotated
+
+You should see a breakdown of the possible impacts of each of the
+mutations listed in the provided input file.
+
+*Additional Note*
+                 
+
+*Note the example mutation data seems unrelated to yeast* Example data
+listed as: chr1 213941196 213941196 A G chr10 942363 942363 C G
+
+Although the example data included with source and discussed in the
+documentation is for yeast S. cerevisiae, the example data listed on the
+documentation cannot be yeast. Chromosome 1 of S. cerevisiae is only
+230218 bp http://www.genome.jp/dbget-bin/www\_bget?refseq+NC\_001133
+
+Chromsome X of S. cerevisiae is only 745751 bp
+http://www.ncbi.nlm.nih.gov/nuccore/BK006943
+
+So both are out of the size range for the chromosomes listed and throws
+errors if you try to use those values with the data that comes with the
+download of the source file. The specific error is
+``IndexError: list assignment index out of range``.
 
 Example 2
 ~~~~~~~~~
 
 This one will be non-interactive.
 
-`HTSeq`_ see manuscript at
+`HTSeq <http://www-huber.embl.de/users/anders/HTSeq/doc/install.html#installation-on-macos-x>`__
+see manuscript at
 http://biorxiv.org/content/biorxiv/early/2014/02/20/002824.full.pdf
 Simon Anders, Paul Theodor Pyl, Wolfgang Huber HTSeq — A Python
 framework to work with high-throughput sequencing data Bioinformatics
@@ -156,6 +269,3 @@ framework to work with high-throughput sequencing data Bioinformatics
     of stand-alone scripts for common tasks that can be used without any
     Python knowledge. See the Scripts section in the overview below for
     what is available.
-
-.. _mutation\_data.bed: https://gist.githubusercontent.com/fomightez/9c435b0f18bf659a4669/raw/54d514b1fa9ce57ec46c5527fbd1eaf3236943e0/mutation_data.bed
-.. _HTSeq: http://www-huber.embl.de/users/anders/HTSeq/doc/install.html#installation-on-macos-x
