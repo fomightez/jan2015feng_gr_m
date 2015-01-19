@@ -260,7 +260,9 @@ mutations listed in the provided input file.
 
 *Note the example mutation data on `the main page describing the
 package <http://depts.washington.edu/sfields/software/annotate/>`__
-seems unrelated to yeast*. Example data listed as:
+seems unrelated to yeast*.
+
+Example data listed as:
 
 ::
 
