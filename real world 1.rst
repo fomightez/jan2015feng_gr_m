@@ -28,7 +28,7 @@ NGS Analysis with Python
     differential gene representation between treatments were assessed
     using the R/Bioconductor package DESeq [76].
 
--  HTSeq](http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html)
+-  `HTSeq <http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html>`__
    see manuscript at
    http://biorxiv.org/content/biorxiv/early/2014/02/20/002824.full.pdf
    Simon Anders, Paul Theodor Pyl, Wolfgang Huber HTSeq — A Python
@@ -84,8 +84,9 @@ Alright let's see if we can run this.
 
 What so we need?
 
-Looking at the excerpt from the documentation below starts to give you a
-feel for what you need.
+Looking at the excerpt from `the
+documentation <http://depts.washington.edu/sfields/software/annotate/docs/README.txt>`__
+below starts to give you a feel for what you need.
 
 ::
 
@@ -217,11 +218,13 @@ following to install the Biopython package.
 
 Now we should be set to run the ``annotate.py`` script.
 
-Looks like from the documentation the command would be....
+Looks like from the documentation the command would be ...
 
 ::
 
-    python annotate.py --mutations mutation_data.bed --genome S288C_reference_sequence_R64-1-1_20110203.fsa --coding orf_coding_all_R64-1-1_20110203.fasta --non-coding saccharomyces_cerevisiae_R64-1-1_20110208.gff.filtered`
+    python annotate.py --mutations mutation_data.bed --genome S288C_reference_sequence_R64-1-1_20110203.fsa --coding orf_coding_all_R64-1-1_20110203.fasta --non-coding saccharomyces_cerevisiae_R64-1-1_20110208.gff.filtered
+
+(Be careful to get it all as it is long and scrolls off to the right.)
 
 Running that unexpectedly FAILS?!?!?!
 
@@ -255,9 +258,9 @@ mutations listed in the provided input file.
 *Additional Note*
                  
 
-*Note the example mutation data seems unrelated to yeast*
-
-Example data listed as:
+*Note the example mutation data on `the main page describing the
+package <http://depts.washington.edu/sfields/software/annotate/>`__
+seems unrelated to yeast*. Example data listed as:
 
 ::
 
@@ -266,10 +269,10 @@ Example data listed as:
 
 Although the example data included with source and discussed in the
 documentation is for yeast S. cerevisiae, the example data listed on the
-documentation cannot be yeast. Chromosome 1 of S. cerevisiae is only
+documentation cannot be yeast. Chromosome 1 of *S. cerevisiae* is only
 230218 bp http://www.genome.jp/dbget-bin/www\_bget?refseq+NC\_001133
 
-Chromsome X of S. cerevisiae is only 745751 bp
+Chromsome X of *S. cerevisiae* is only 745751 bp
 http://www.ncbi.nlm.nih.gov/nuccore/BK006943
 
 So both are out of the size range for the chromosomes listed and throws
