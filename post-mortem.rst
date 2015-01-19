@@ -1,3 +1,7 @@
+.. contents::
+   :depth: 3.0
+..
+
 Post-mortem of Session I
 ------------------------
 
@@ -10,8 +14,9 @@ Comments and docstrings and placeholders
 Comments
 ^^^^^^^^
 
-Python will disregard everything after a ``#`` that is not in a string.
-You can comment out entire lines be beginning them with ``#``.
+Python will disregard everything on a line after an ``#`` that is not
+within a string. You can comment out entire lines by beginning them with
+``#``.
 
 Example:
 
@@ -78,10 +83,10 @@ Get installed modules/ package command library command
 
 ``help('modules')``
 
-works on sourcelair.com at the Python prompt. Interestingly, it doesn’t
+works on sourcelair.com at the Python prompt. Interestingly, it doesn't
 work on my Mac at the Python prompt (in Terminal) where I have Enthought
 Canopy installed as my version of Python. Enthought has a package
-manager and so they are listed under that if you open Entought’s Canopy
+manager and so they are listed under that if you open Entought's Canopy
 gui analysis environment.
 
 adapted from from
@@ -105,8 +110,9 @@ http://stackoverflow.com/questions/633127/viewing-all-defined-variables
 This is similar to debugging when you have a written program or are
 developing one.
 
-The Online Python Tutor or `Codeskulptor’s visualization mode (Viz
-mode)`_ will show values as you step through each line.
+The Online Python Tutor or `Codeskulptor's visualization mode (Viz
+mode) <http://www.codeskulptor.org/viz/index.html>`__ will show values
+as you step through each line.
 
 For debugging real scripts in the typical Python environment, you can: -
 add printing variables and messages. You can comment these out. You can
@@ -120,5 +126,3 @@ typical Python environment, use a debugger module (see
 https://docs.python.org/2/library/pdb.html and
 http://hplgit.github.io/bioinf-py/doc/pub/html/main\_bioinf.html for
 some guidance in this)
-
-.. _Codeskulptor’s visualization mode (Viz mode): http://www.codeskulptor.org/viz/index.html
