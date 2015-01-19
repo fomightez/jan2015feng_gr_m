@@ -179,7 +179,7 @@ is a small file.)
 
     wget https://gist.githubusercontent.com/fomightez/9c435b0f18bf659a4669/raw/54d514b1fa9ce57ec46c5527fbd1eaf3236943e0/mutation_data.bed
 
-Unless you have previously installed the Biopython module in your
+Unless you have previously installed the Biopython package in your
 current SourceLair project, you'll get an error if you try to run the
 ``annotate.py`` script at this point.
 
@@ -191,15 +191,32 @@ current SourceLair project, you'll get an error if you try to run the
         from Bio import SeqIO
     ImportError: No module named Bio
 
-You simply need to install the needed module to your SourceLair project.
-At the command line terminal of your SourceLair project, type the
-following to install the Biopython module.
+You simply need to install the needed package to your SourceLair
+project. At the command line terminal of your SourceLair project, type
+the following to install the Biopython package. (Packages or modules
+(sometimes called ``libraries``) are simply code by others that provide
+useful functions and abilities that go beyond the bare bones Python and
+are generally specific for certain sorts of tasks. Not having them as
+part of bare bones Python cuts down on use of unnecessary resources.
+They generally need to be installed or put some place Python will look
+for them, and then you can import them at any time to use them. Many
+Python distributions include several packages are common. For example
+you can see all the modules/packages that come standard with
+PythonAnywhere
+`here <https://www.pythonanywhere.com/batteries_included/>`__. Any
+distribution of Python will include a way of installing additional
+packages. For example, PythonAnywhere's instructions are
+`here <https://www.pythonanywhere.com/wiki/InstallingNewModules>`__.
+SourceLair's are
+`here <https://www.sourcelair.com/guides/start/python#install-packages-tools-libraries-etc->`__.)
 
 ::
 
     pip install biopython
 
-Looks like from the documentation the command would then be....
+Now we should be set to run the ``annotate.py`` script.
+
+Looks like from the documentation the command would be....
 
 ::
 
@@ -209,10 +226,11 @@ Running that unexpectedly FAILS?!?!?!
 
 Looks good according to documentation. What is going on?
 
-Look at ``annotate.py`` file some. Specifically the doc string at the
-top and the text about arguments at the very end. Two don't match what
-the documentation says. The code is going to run what is in the code; it
-doesn't know about the documentation page.
+Look at ``annotate.py`` file some. Specifically the docstring at the top
+and the text about arguments at the very end. Two of the arguments don't
+match what the documentation says are the flags signalling them. The
+code is going to run what is in the code; it doesn't know about the
+documentation page.
 
 Let's try that command again modifying it to match what the script
 itself says.
