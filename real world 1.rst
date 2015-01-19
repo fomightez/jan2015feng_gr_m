@@ -28,12 +28,12 @@ NGS Analysis with Python
     differential gene representation between treatments were assessed
     using the R/Bioconductor package DESeq [76].
 
--`HTSeq <http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html>`__
-see manuscript at
-http://biorxiv.org/content/biorxiv/early/2014/02/20/002824.full.pdf
-Simon Anders, Paul Theodor Pyl, Wolfgang Huber HTSeq — A Python
-framework to work with high-throughput sequencing data Bioinformatics
-(2014), in print, online at doi:10.1093/bioinformatics/btu638
+-  HTSeq](http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html)
+   see manuscript at
+   http://biorxiv.org/content/biorxiv/early/2014/02/20/002824.full.pdf
+   Simon Anders, Paul Theodor Pyl, Wolfgang Huber HTSeq — A Python
+   framework to work with high-throughput sequencing data Bioinformatics
+   (2014), in print, online at doi:10.1093/bioinformatics/btu638
 
     While the main purpose of HTSeq is to allow you to write your own
     analysis scripts, customized to your needs, there are also a couple
@@ -192,23 +192,24 @@ current SourceLair project, you'll get an error if you try to run the
     ImportError: No module named Bio
 
 You simply need to install the needed package to your SourceLair
-project. At the command line terminal of your SourceLair project, type
-the following to install the Biopython package. (Packages or modules
-(sometimes called ``libraries``) are simply code by others that provide
-useful functions and abilities that go beyond the bare bones Python and
-are generally specific for certain sorts of tasks. Not having them as
-part of bare bones Python cuts down on use of unnecessary resources.
-They generally need to be installed or put some place Python will look
-for them, and then you can import them at any time to use them. Many
-Python distributions include several packages are common. For example
-you can see all the modules/packages that come standard with
-PythonAnywhere
+project. (Packages or modules (sometimes called ``libraries``) are
+simply code by others that provide useful functions and abilities that
+go beyond the bare bones Python and are generally specific for certain
+sorts of tasks. Not having them as part of bare bones Python cuts down
+on use of unnecessary resources. They generally need to be installed or
+put some place Python will look for them, and then you can import them
+at any time to use them. Many Python distributions include several
+packages are common. For example you can see all the modules/packages
+that come standard with PythonAnywhere
 `here <https://www.pythonanywhere.com/batteries_included/>`__. Any
 distribution of Python will include a way of installing additional
 packages. For example, PythonAnywhere's instructions are
 `here <https://www.pythonanywhere.com/wiki/InstallingNewModules>`__.
 SourceLair's are
 `here <https://www.sourcelair.com/guides/start/python#install-packages-tools-libraries-etc->`__.)
+
+At the command line terminal of your SourceLair project, type the
+following to install the Biopython package.
 
 ::
 
