@@ -236,8 +236,14 @@ mutations listed in the provided input file.
 *Additional Note*
                  
 
-*Note the example mutation data seems unrelated to yeast* Example data
-listed as: chr1 213941196 213941196 A G chr10 942363 942363 C G
+*Note the example mutation data seems unrelated to yeast*
+
+Example data listed as:
+
+::
+
+    chr1   213941196  213941196  A  G
+    chr10  942363     942363     C  G
 
 Although the example data included with source and discussed in the
 documentation is for yeast S. cerevisiae, the example data listed on the
