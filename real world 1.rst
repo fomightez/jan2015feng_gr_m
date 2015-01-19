@@ -256,11 +256,11 @@ You should see a breakdown of the possible impacts of each of the
 mutations listed in the provided input file.
 
 *Additional Note*
-                 
 
-*Note the example mutation data on `the main page describing the
+
+*Note* the example mutation data on `the main page describing the
 package <http://depts.washington.edu/sfields/software/annotate/>`__
-seems unrelated to yeast*.
+seems unrelated to yeasts.
 
 Example data listed as:
 
