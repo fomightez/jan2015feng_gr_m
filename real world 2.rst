@@ -36,7 +36,8 @@ More information about YeastMine:
 -  `Paper about implementing Intermine system with SGD to make
    YeastMine <http://www.ncbi.nlm.nih.gov/pubmed/22434830>`__
 
-I'll demo of where to get Python code fragments for designed queries.
+I'll demo Query Builder and where to get Python code fragments for
+designed queries.
 
 Example of integrating YeastMine code fragments into your work
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
