@@ -1,41 +1,45 @@
+.. contents::
+   :depth: 3.0
+..
+
 Real World Examples II: Using APIs
 ==================================
 
 Plotly
 ------
 
-`Plotly`_
+`Plotly <https://plot.ly/~wayne461/42/file-size-distribution-of-all-105222-protein-data-bank-entries-as-of-jan-7-2015/>`__
 
 This will be a non-interactive demo of a script running on `Domino Data
-Lab`_.
+Lab <http://www.dominodatalab.com/>`__.
 
-1. Look at date and stats of plot `here`_
+1. Look at date and stats of plot
+   `here <https://plot.ly/~wayne461/42/file-size-distribution-of-all-105222-protein-data-bank-entries-as-of-jan-7-2015/>`__
 
 2. Script will be run.
 
-3. Look at date and stats of plot `here`_
+3. Look at date and stats of plot
+   `here <https://plot.ly/~wayne461/42/file-size-distribution-of-all-105222-protein-data-bank-entries-as-of-jan-7-2015/>`__
 
 Yeastmine
 ---------
 
-`YeastMine`_ has a `Python web service API`_
+`YeastMine <http://yeastmine.yeastgenome.org/yeastmine/begin.do>`__ has
+a `Python web service
+API <http://yeastmine.yeastgenome.org/yeastmine/api.do?subtab=python>`__
 
 More information about YeastMine:
 
--  `Page about it at Saccharomyces Genome Database (SGD)`_
+-  `Page about it at Saccharomyces Genome Database
+   (SGD) <http://www.yeastgenome.org/help/analyze/yeastmine-help-page>`__
 
 -  `Paper about implementing Intermine system with SGD to make
-   YeastMine`_
+   YeastMine <http://www.ncbi.nlm.nih.gov/pubmed/22434830>`__
 
-I’ll demo of where to get Python code fragments for designed queries.
+I'll demo of where to get Python code fragments for designed queries.
 
 Example of integrating YeastMine code fragments into your work
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. _YeastMine: http://yeastmine.yeastgenome.org/yeastmine/begin.do
-.. _Python web service API: http://yeastmine.yeastgenome.org/yeastmine/api.do?subtab=python
-.. _Page about it at Saccharomyces Genome Database (SGD): http://www.yeastgenome.org/help/analyze/yeastmine-help-page
-.. _Paper about implementing Intermine system with SGD to make YeastMine: http://www.ncbi.nlm.nih.gov/pubmed/22434830
 
 Plan:
 
@@ -115,17 +119,13 @@ Now replace the example list in the code below and run the code of
                 row["organism.shortName"], row["proteins.symbol"], row["sgdAlias"], row["featureType"], \
                  row["description"]
 
-
 NCBI
 ----
 
-`NCBI Entrez server`_ via Biopython
+`NCBI Entrez server <http://www.ncbi.nlm.nih.gov/books/NBK25501/>`__ via
+Biopython
 
 INSTALLATION NEEDED?
-
-.. _NCBI Entrez server: http://www.ncbi.nlm.nih.gov/books/NBK25501/
-
-
 
 ::
 
