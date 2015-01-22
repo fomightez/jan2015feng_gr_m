@@ -4,7 +4,7 @@ Python for today
 Getting started, we’ll use Sourcelair and Sagemath Cloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`SourceLair`_\ 
+`SourceLair`_\
 
 `Guide to Python on Sourcelair`_
 
@@ -45,12 +45,12 @@ We will begin to cover
 
    -  math and comparative operators
 
-   -  conditionals (Slide of comparison from PCfB book, pg. 116)
+   -  conditionals (Slide of comparison from PCfB book, pg. 116?)
 
       -  if
       -  if-else
 
-   -  loops (Slide of comparison from PCfB book, pg. 117)
+   -  loops (Slide of comparison from PCfB book, pg. 117?)
 
       -  for
       -  while
@@ -59,7 +59,7 @@ We will begin to cover
 
    -  functions
 
-   \*file and string handling
+   - file and string handling
 
 *We’ll break it up with some real world examples*
 
