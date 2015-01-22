@@ -2,8 +2,8 @@
    :depth: 3.0
 ..
 
-Post-mortem of Session I
-------------------------
+Epilogue to Session I
+---------------------
 
 In response to questions raised during Session I. I look forward to
 another!
@@ -76,10 +76,10 @@ for code to be fleshed out later.
 certain text editors and Interactive Development Environments (IDE) will
 not allow you to leave lines following a colon blank.
 
-Installed modules/packages.libraries
+Installed modules/packages/libraries
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Get installed modules/ package command library command
+Get installed modules/package command library command
 
 ``help('modules')``
 
