@@ -81,7 +81,7 @@ Learning Python
 -  `“Why We Built Enthought Canopy, An Inside Look” Recorded
    Webinar <http://blog.enthought.com/general/why-we-built-canopy/#.VLNDKWTF85g>`__
 
--  `The GOBLET Training Portal- A Global Repository of Bioinformatics
+-  `The GOBLET Training Portal: A Global Repository of Bioinformatics
    Training Materials, Courses and
    Trainers <http://mygoblet.org/training-portal>`__, see `abstract of
    associated
