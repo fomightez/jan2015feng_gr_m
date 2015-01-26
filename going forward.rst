@@ -34,12 +34,6 @@ Learning Python
 -  `Rosalind, platform for learning bioinformatics and programming
    through problem solving <http://rosalind.info/problems/locations/>`__
 
--  `The GOBLET Training Portal: A Global Repository of Bioinformatics
-   Training Materials, Courses and
-   Trainers <http://mygoblet.org/training-portal>`__, see `abstract of
-   associated
-   publication <http://bioinformatics.oxfordjournals.org/content/early/2014/09/03/bioinformatics.btu601.abstract>`__
-
 -  `A modern guide to getting started with Data Science and
    Python <http://twiecki.github.io/blog/2014/11/18/python-for-data-science/>`__
 
@@ -87,6 +81,12 @@ Learning Python
 -  `“Why We Built Enthought Canopy, An Inside Look” Recorded
    Webinar <http://blog.enthought.com/general/why-we-built-canopy/#.VLNDKWTF85g>`__
 
+-  `The GOBLET Training Portal- A Global Repository of Bioinformatics
+   Training Materials, Courses and
+   Trainers <http://mygoblet.org/training-portal>`__, see `abstract of
+   associated
+   publication <http://bioinformatics.oxfordjournals.org/content/early/2014/09/03/bioinformatics.btu601.abstract>`__
+
 NCBI with Python
 ~~~~~~~~~~~~~~~~
 
@@ -97,11 +97,11 @@ NGS Analysis
 ~~~~~~~~~~~~
 
 -  `Titus Brown and Colleagues' Next-Gen Sequence Analysis
-   Workshops <http://ged.msu.edu/angus/>`__, most recent is [Next-Gen
+   Workshops <http://ged.msu.edu/angus/>`__, most recent is `Next-Gen
    Sequence Analysis Workshop
-   (2014)(http://angus.readthedocs.org/en/2014/) *I printed this out.*
-   It also has an interesting condensed course he taught last year
-   called `2013 Zero-Entry Workshop: Computational Science for
+   (2014) <http://angus.readthedocs.org/en/2014/>`__. It also has an
+   interesting condensed course he taught last year called `2013
+   Zero-Entry Workshop: Computational Science for
    Biologists <http://2013-uw-zero-entry.readthedocs.org/en/latest/>`__.
 
 Intermediate Python and Integrating it with Other Tools
