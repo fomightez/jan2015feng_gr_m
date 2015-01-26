@@ -9,8 +9,6 @@ Introduction to coding in Python.
 
 `A Google Doc for sharing today`_
 
-http://we.tl/gKcevY5qXV
-
 3:40am-5:30pm, January 15th, 2015.
 
 .. _A workshop for Feng Lab Group meeting: http://bit.ly/FengPyCode
