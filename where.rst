@@ -23,7 +23,8 @@ On Your Desktop - Asterisks indicates those in this section I have used and they
    Supposedly, it can be done on Windows too if you deal with setting
    the path.
 
--  `Editing\ *and*\ Running\ *a*\ Python\ *Program*\ With\ *TextWrangler*\ on\ *a*\ Macintosh <http://www-personal.umich.edu/~csev/courses/shared/handouts/Python-Program-TextWrangler.pdf>`__\ \*
+-  `Editing and Running a Python Program With TextWrangler on a
+   Macintosh <http://www-personal.umich.edu/~csev/courses/shared/handouts/Python-Program-TextWrangler.pdf>`__\ \*
 
 -  Terminal on Mac\*
 
