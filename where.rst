@@ -31,8 +31,8 @@ On Your Desktop - Asterisks indicates those in this section I have used and they
 In Your Browser/Cloud - Asterisks indicates those in this section I have used
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `PythonAnywhere <https://www.pythonanywhere.com>`__\ \* `Others'
-   recent views at the Python
+-  `PythonAnywhere <https://www.pythonanywhere.com>`__\ \* Others'
+   recent views `at the Python
    subreddit <http://www.reddit.com/r/Python/comments/2tr8vk/what_are_your_experiences_with_pythonanywhere/>`__
 
 -  `SourceLair <https://www.sourcelair.com/home>`__\ \*
