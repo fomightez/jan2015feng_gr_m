@@ -118,15 +118,10 @@ visualization mode (Viz
 mode) <http://www.codeskulptor.org/viz/index.html>`__ will show values
 as you step through each line.
 
-For debugging real scripts in the typical Python environment, you can: -
-add printing variables and messages. You can comment these out. You can
-even use a the ``logging`` module to control statements you can turn off
-at a document level. See lines 70-72 and line 115 of
-https://github.com/fomightez/sequencework/blob/master/ConvertSeq/ConvertFASTAdnaSEQtoRNA.py
-for an example if it in action. See
-https://docs.python.org/2/howto/logging.html for information about the
-``logging`` module in general. - For debugging real scripts in the
-typical Python environment, use a debugger module (see
-https://docs.python.org/2/library/pdb.html and
-http://hplgit.github.io/bioinf-py/doc/pub/html/main\_bioinf.html for
-some guidance in this)
+For debugging real scripts in the typical Python environment, you can:
+
+::
+
+    - add printing variables and messages. You can comment these out. You can even use a the `logging` module to control statements you can turn off at a document level. See lines 70-72 and line 115 of  https://github.com/fomightez/sequencework/blob/master/ConvertSeq/ConvertFASTAdnaSEQtoRNA.py for an example if it in action. See https://docs.python.org/2/howto/logging.html for information about the `logging` module in general.
+
+    - use a debugger module (see https://docs.python.org/2/library/pdb.html and  http://hplgit.github.io/bioinf-py/doc/pub/html/main_bioinf.html for some guidance in this)
