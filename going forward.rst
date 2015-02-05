@@ -18,6 +18,15 @@ Look into
    At the `main site you can select your
    form <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__.
 
+-  `Programming: Pick up Python by Jeffrey M. Perkel. Nature. 518,
+   125–126 (05 February 2015)
+   doi:10.1038/518125a <http://www.nature.com/news/programming-pick-up-python-1.16833>`__
+   too
+
+-  `Interactive notebooks: Sharing the code by Helen Shen. Nature. 2014
+   Nov 6;515(7525):151-2. doi: 10.1038/515151a. PMID:
+   25373681 <http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261>`__
+
 -  `a two year-old screencast intro of IPython notebook by Titus
    Brown <https://www.youtube.com/watch?v=HaS4NXxL5Qc&feature=youtu.be>`__
    (Skip to the three-minute mark since we aren't necessarily interested
