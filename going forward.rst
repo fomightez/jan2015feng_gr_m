@@ -19,7 +19,7 @@ Look into
    form <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__.
 
 -  `Programming: Pick up Python by Jeffrey M. Perkel. Nature. 2015
-   February 5;518:125–6.doi:10.1038/518125a
+   February 5;518:125–6.doi:10.1038/518125a.
    PMID:??? <http://www.nature.com/news/programming-pick-up-python-1.16833>`__
 
 -  `Interactive notebooks: Sharing the code by Helen Shen. Nature. 2014
