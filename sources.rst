@@ -22,10 +22,9 @@ related resources, or are especially pertinent at this stage.
    At the `main site you can select your
    form <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__.
 
--  `Programming: Pick up Python by Jeffrey M. Perkel. Nature. 518,
-   125–126 (05 February 2015)
-   doi:10.1038/518125a <http://www.nature.com/news/programming-pick-up-python-1.16833>`__
-   too
+-  `Programming: Pick up Python by Jeffrey M. Perkel. Nature. 2015
+   February 5;518:125–6.doi:10.1038/518125a
+   PMID:??? <http://www.nature.com/news/programming-pick-up-python-1.16833>`__
 
 -  `Interactive notebooks: Sharing the code by Helen Shen. Nature. 2014
    Nov 6;515(7525):151-2. doi: 10.1038/515151a. PMID:
