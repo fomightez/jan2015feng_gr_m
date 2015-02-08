@@ -123,10 +123,53 @@ Now replace the example list in the code below and run the code of
 NCBI
 ----
 
-`NCBI Entrez server <http://www.ncbi.nlm.nih.gov/books/NBK25501/>`__ via
-Biopython
+Using the `NCBI Entrez
+server <http://www.ncbi.nlm.nih.gov/books/NBK25501/>`__ via Biopython
 
-INSTALLATION NEEDED?
+See the `Real World example
+#1 <http://jan2015feng-gr-m.readthedocs.org/en/latest/real%20world%201/#example-1>`__
+for a reminder of how to take the script below and run it on
+Sourcelair.com. The process is the same.
+
+Unless you have previously installed the Biopython package in your
+current SourceLair project, you'll get an error if you try to run the
+script below. (If you already did the examples under the Real World
+exercises set #1 then you should be all set unless you startd over with
+a new project folder since then.)
+
+If you try to run the script and see the error below, you need to
+install the module again.
+
+::
+
+    ImportError: No module named Bio
+
+You simply need to install the needed package to your SourceLair
+project. (Packages or modules (sometimes called ``libraries``) are
+simply code by others that provide useful functions and abilities that
+go beyond the bare bones Python and are generally specific for certain
+sorts of tasks. Not having them as part of bare bones Python cuts down
+on use of unnecessary resources. They generally need to be installed or
+put some place Python will look for them, and then you can import them
+at any time to use them. Many Python distributions include several
+packages are common. For example you can see all the modules/packages
+that come standard with PythonAnywhere
+`here <https://www.pythonanywhere.com/batteries_included/>`__. Any
+distribution of Python will include a way of installing additional
+packages. For example, PythonAnywhere's instructions are
+`here <https://www.pythonanywhere.com/wiki/InstallingNewModules>`__.
+SourceLair's are
+`here <https://www.sourcelair.com/guides/start/python#install-packages-tools-libraries-etc->`__.)
+
+At the command line terminal of your SourceLair project, type the
+following to install the Biopython package.
+
+::
+
+    pip install biopython
+
+Now we should be set to run the script below to use the `NCBI Entrez
+server <http://www.ncbi.nlm.nih.gov/books/NBK25501/>`__ via Biopython.
 
 ::
 
