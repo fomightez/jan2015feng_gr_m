@@ -110,13 +110,17 @@ In IPython Notebook: type ``whos``
 adapted from
 http://stackoverflow.com/questions/633127/viewing-all-defined-variables
 
-This is similar to debugging when you have a written program or are
-developing one.
+(For more on scope and Python's namespaces, see `A beginner's guide to
+Python's namespaces, scope
+resolution... <http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/scope_resolution_legb_rule.ipynb>`__)
+
+Examining the current scope can be part of the more general process of
+debugging your script, and so I'll touch on that too.
 
 The `Online Python Tutor <http://pythontutor.com/>`__ or `Codeskulptor's
 visualization mode (Viz
 mode) <http://www.codeskulptor.org/viz/index.html>`__ will show values
-as you step through each line.
+as you step through each line of your script.
 
 For debugging real scripts in the typical Python environment, you can:
 
