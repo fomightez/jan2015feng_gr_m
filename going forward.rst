@@ -98,7 +98,7 @@ Learning Python
 -  Keep in mind that Enthought advertises they have free online courses
    for individuals at degree-granting institutions. the `twitter
    posting <https://twitter.com/enthought/status/566602865196945408>`__
-   said see `here <https://training.enthought.com/courses>`__.(Although
+   said see `here <https://training.enthought.com/courses>`__. (Although
    I didn't see anything about them being free but maybe it is shown
    after you register with academic email account?)
 
