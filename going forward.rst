@@ -138,6 +138,11 @@ Intermediate Python and Integrating it with Other Tools
    Economists <http://cs.brown.edu/~ambell/pyseminar/Python_for_Economists.pdf>`__
    - primer covering a lot of the essentials
 
+-  `The Jupyter project <http://jupyter.org/>`__ is the future of the
+   IPython Notebook project. --> An `example of integrating it further
+   with
+   Bash <http://jeroenjanssens.com/2015/02/19/ibash-notebook.html>`__.
+
 ADVANCED
 --------
 
