@@ -23,7 +23,7 @@ Preparation
 
 UPDATE: now I'd probably add `Programming: Pick up Python by Jeffrey M.
 Perkel. Nature. 2015 February 5;518:125–6.doi:10.1038/518125a.
-PMID:??? <http://www.nature.com/news/programming-pick-up-python-1.16833>`__
+PMID:25653001 <http://www.nature.com/news/programming-pick-up-python-1.16833>`__
 too
 
 **Tech prep**
