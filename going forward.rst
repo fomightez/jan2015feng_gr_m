@@ -33,7 +33,7 @@ Look into
    version of the notebook he demonstrates is
    `here <http://nbviewer.ipython.org/github/fomightez/jan2015feng_gr_m/blob/master/others_demos/titus_screencast.ipynb>`__.
 
--  `Anothr take on the wonders of the IPython
+-  `Another take on the wonders of the IPython
    notebook <http://nbviewer.ipython.org/url/inesdesantiago.github.io/SeqQC.blog/ipythonSlides_post5/Example_Ipython.ipynb>`__,
    from `a
    blog <https://seqqc.wordpress.com/2015/02/22/make-slides-with-ipython-notebook/>`__.
