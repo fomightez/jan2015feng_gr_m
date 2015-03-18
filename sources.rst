@@ -8,7 +8,7 @@ Sources
 The sources for the information used today came from those linked
 throughtout the content.
 
-However, certain sources desrve special highlighting as they were
+However, certain sources deserve special highlighting as they were
 particularly useful in developing this workshop, contain a wealth of
 related resources, or are especially pertinent at this stage.
 
