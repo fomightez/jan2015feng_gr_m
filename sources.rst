@@ -6,7 +6,7 @@ Sources
 =======
 
 The sources for the information used today came from those linked
-throughtout the content.
+throughout the content.
 
 However, certain sources deserve special highlighting as they were
 particularly useful in developing this workshop, contain a wealth of
