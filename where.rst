@@ -8,11 +8,11 @@ Where to code and run Python
 On Your Desktop - Asterisks indicates those in this section I have used and they are in order of preference/familiarty in this particular section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `Enthought's Canopy Python disctributiona and Analysis
-   Environment <https://www.enthought.com/products/epd/>`__\ \*
-
 -  `Anaconda <https://store.continuum.io/cshop/anaconda/>`__ is now the
    suggested source for scientific Python by Software Carpentry.
+
+-  `Enthought's Canopy Python distribution and Analysis
+   Environment <https://store.enthought.com/#canopy-academic>`__\ \*
 
 -  `IDLE on Windows
    PC <https://software.rc.fas.harvard.edu/training/scraping/install/>`__\ \*
