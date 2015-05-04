@@ -38,6 +38,11 @@ Look into
    from `a
    blog <https://seqqc.wordpress.com/2015/02/22/make-slides-with-ipython-notebook/>`__.
 
+-  `March 2015 blog post suggesting mandatory primer courses for basic
+   skills for students in cellular & molecular biology, genetics, and
+   related
+   subfields <http://toddharris.net/blog/2015/03/23/its-time-to-reboot-bioinformatics-education/>`__
+
 Learning Python
 ~~~~~~~~~~~~~~~
 
@@ -128,7 +133,9 @@ Intermediate Python and Integrating it with Other Tools
 -------------------------------------------------------
 
 -  `“Why We Built Enthought Canopy, An Inside Look” Recorded
-   Webinar <http://blog.enthought.com/general/why-we-built-canopy/#.VLNDKWTF85g>`__
+   Webinar <http://blog.enthought.com/general/why-we-built-canopy/#.VLNDKWTF85g>`__.
+   Learn about getting Canopy
+   `here <https://store.enthought.com/#canopy-academic>`__.
 
 -  `Analyzing data with R in the IPython
    notebook <http://nbviewer.ipython.org/github/dboyliao/cookbook-code/blob/master/notebooks/chapter07_stats/08_r.ipynb>`__
