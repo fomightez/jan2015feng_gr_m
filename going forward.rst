@@ -43,6 +43,11 @@ Look into
    related
    subfields <http://toddharris.net/blog/2015/03/23/its-time-to-reboot-bioinformatics-education/>`__
 
+-  `Article with bottom line supporting learn any
+   language <http://www.sitepoint.com/whats-best-programming-language-learn-2015/?utm_content=bufferaa412&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer>`__,
+   the important thing is you use it and stick with it, even if you
+   prgress slowly.
+
 Learning Python
 ~~~~~~~~~~~~~~~
 
