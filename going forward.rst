@@ -169,6 +169,9 @@ Go beyond...
 `Filling in Python’s gaps in statistics packages with
 Rmagic <http://www.randalolson.com/2013/01/14/filling-in-pythons-gaps-in-statistics-packages-with-rmagic/>`__
 
+`Comparing Python and R for Data
+Science <http://blog.dominodatalab.com/comparing-python-and-r-for-data-science/>`__
+
 `How I Like to Use Python (or ‘writing Software as a
 Scientist’) <http://nanodatum.wordpress.com/2014/12/26/how-i-like-to-use-python-or-writing-software-as-a-scientist/>`__
 
