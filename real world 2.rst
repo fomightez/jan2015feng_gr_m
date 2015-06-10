@@ -21,6 +21,13 @@ Lab <http://www.dominodatalab.com/>`__.
 3. Look at date and stats of plot
    `here <https://plot.ly/~wayne461/42/file-size-distribution-of-all-105222-protein-data-bank-entries-as-of-jan-7-2015/>`__
 
+Additional help with plotting biological data via plotly - `Exploratory
+bioinformatics with plot.ly and IPython notebook: Visualizing gene
+expression data <https://plot.ly/ipython-notebooks/bioinformatics/>`__
+(That
+`notebook <https://github.com/plotly/IPython-plotly/tree/master/notebooks/bioinformatics>`__
+on github.)
+
 Yeastmine
 ---------
 
