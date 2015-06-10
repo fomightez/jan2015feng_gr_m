@@ -151,6 +151,13 @@ Intermediate Python and Integrating it with Other Tools
 -  `IPython and Plotly: A Rosetta Stone for MATLAB, R, Python, and Excel
    plotting <http://nbviewer.ipython.org/gist/msund/61cdbd5b22c103fffb84>`__
 
+-  Additional help with plotting biological data via plotly -
+   `Exploratory bioinformatics with plot.ly and IPython notebook:
+   Visualizing gene expression
+   data <https://plot.ly/ipython-notebooks/bioinformatics/>`__ (That
+   `notebook <https://github.com/plotly/IPython-plotly/tree/master/notebooks/bioinformatics>`__
+   on github.)
+
 -  `Python for
    Economists <http://cs.brown.edu/~ambell/pyseminar/Python_for_Economists.pdf>`__
    - primer covering a lot of the essentials
