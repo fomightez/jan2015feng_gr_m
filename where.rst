@@ -50,6 +50,8 @@ In Your Browser/Cloud - Asterisks indicates those in this section I have used
    notebook aspect doesn't seem to work when on Upstate's network, but
    you can still use Python there.
 
+-  `Trinket <https://trinket.io/>`__
+
 -  `ScienceBox <https://www.yhathq.com/products/sciencebox>`__ - lacks
    free version as far as I know. All above have one.
 
