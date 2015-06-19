@@ -96,6 +96,8 @@ Learning Python
 
 -  `Python for Biologists <http://pythonforbiologists.com/>`__
 
+-  `Trinket's Hour of Python series <https://hourofpython.com/>`__
+
 -  `CodeAcademy <http://www.codecademy.com/en/tracks/python>`__
 
 -  `Think Python: How to Think Like a Computer
