@@ -85,3 +85,15 @@ In Your Browser - Emulators (you won't know it isn't REALLY full-featured Python
 -  `Codepad <http://codepad.org/>`__
 
 -  `Rextester <http://rextester.com/runcode>`__
+
+for installing IPython Notebook handling on your machine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+from `Exploratory Computing with
+Python <http://mbakker7.github.io/exploratory_computing_with_python/>`__
+> The three main options are `Canopy
+Express <https://store.enthought.com/>`__ (Mac, Windows, Linux),
+`Anaconda <https://store.continuum.io/cshop/anaconda/>`__ (Mac, Windows,
+Linux), and
+`PythonXY <https://code.google.com/p/pythonxy/wiki/Welcome>`__
+(Windows).
