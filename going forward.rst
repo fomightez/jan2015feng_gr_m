@@ -15,7 +15,7 @@ Look into
    Arizona <http://2013-swc-az.readthedocs.org/en/latest/index.html>`__
 
 -  `Illustrating Python via Bioinformatics Examples (Bioinf-py)
-   <http://hplgit.github.io/bioinf-py/doc/pub/html/index.html>`__
+   <http://hplgit.github.io/bioinf-py/doc/pub/html/index.html>`__.
    At the `main site you can select your
    form <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__.
 
@@ -67,7 +67,8 @@ Learning Python
 -  `How to Think Like a Computer Scientist: Learning with Python
    3.x <http://openbookproject.net/thinkcs/python/english3e/index.html>`__
 
--  `Bioinf-py <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__
+-  `Illustrating Python via Bioinformatics Examples (Bioinf-py)
+    <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__
 
 -  The three Coursera courses in Rice University's Fundamentals of
    Computing specialization. The three courses are `An Introduction to
