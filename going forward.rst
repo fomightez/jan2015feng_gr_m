@@ -14,7 +14,8 @@ Look into
 -  `April 2013 Software Carpentry at
    Arizona <http://2013-swc-az.readthedocs.org/en/latest/index.html>`__
 
--  `Bioinf-py <http://hplgit.github.io/bioinf-py/doc/pub/html/index.html>`__
+-  `Illustrating Python via Bioinformatics Examples (Bioinf-py)
+   <http://hplgit.github.io/bioinf-py/doc/pub/html/index.html>`__
    At the `main site you can select your
    form <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__.
 
