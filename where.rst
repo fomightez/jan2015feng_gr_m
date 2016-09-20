@@ -35,15 +35,10 @@ In Your Browser/Cloud - Asterisks indicates those in this section I have used
    recent views `at the Python
    subreddit <http://www.reddit.com/r/Python/comments/2tr8vk/what_are_your_experiences_with_pythonanywhere/>`__)
 
--  `SourceLair <https://www.sourcelair.com/home>`__\ \*
+-  `Domino Data Lab <http://www.dominodatalab.com/>`__\ \*  - enables cloud-based Jupyter Notebook (formerly called IPython Notebool) work along with many other languages and functionality.
 
--  `Sagemath Cloud <https://cloud.sagemath.com>`__ enables cloud-based
-   IPython notebook work. An introduction can be found
+-  `Sagemath Cloud <https://cloud.sagemath.com>`__ Jupyter Notebook (formerly called IPython Notebool) work An introduction can be found
    `here <http://www.randalolson.com/2013/11/02/sagemath-cloud-makes-collaborating-with-ipython-notebooks-easier-than-ever/>`__
-
--  `Domino Data Lab <http://www.dominodatalab.com/>`__\ \* -
-   Unfortunately, the IPython notebook aspect doesn't seem to work when
-   on Upstate's network, but you can still use Python there.
 
 -  `Wakari.io - Web-based Python Data
    Analysis <https://www.wakari.io/>`__\ \* - Unfortunately, the IPython
@@ -70,6 +65,9 @@ In Your Browser/Cloud - Asterisks indicates those in this section I have used
 -  Google App Engine - I am unsure of cost here. `Try Google Cloud
    Platform free for 60
    days <https://cloud.google.com/free-trial/?utm_source=twitter&utm_medium=display&utm_campaign=offnetwork_q414&utm_content=text>`__
+
+-  `SourceLair <https://www.sourcelair.com/home>`__\ \*  <-- NO LONGER FREE
+
 
 In Your Browser - Emulators (you won't know it isn't REALLY full-featured Python, for the most part)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
