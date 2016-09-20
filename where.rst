@@ -35,9 +35,9 @@ In Your Browser/Cloud - Asterisks indicates those in this section I have used
    recent views `at the Python
    subreddit <http://www.reddit.com/r/Python/comments/2tr8vk/what_are_your_experiences_with_pythonanywhere/>`__)
 
--  `Domino Data Lab <http://www.dominodatalab.com/>`__\ \*  - enables cloud-based Jupyter Notebook (formerly called IPython Notebool) work along with many other languages and functionality.
+-  `Domino Data Lab <http://www.dominodatalab.com/>`__\ \*  - enables cloud-based Jupyter Notebook (formerly called IPython Notebook) work along with many other languages and functionality.
 
--  `Sagemath Cloud <https://cloud.sagemath.com>`__ Jupyter Notebook (formerly called IPython Notebool) work An introduction can be found
+-  `Sagemath Cloud <https://cloud.sagemath.com>`__ Jupyter Notebook (formerly called IPython Notebook) work An introduction can be found
    `here <http://www.randalolson.com/2013/11/02/sagemath-cloud-makes-collaborating-with-ipython-notebooks-easier-than-ever/>`__
 
 -  `Wakari.io - Web-based Python Data
