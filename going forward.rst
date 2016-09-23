@@ -14,8 +14,8 @@ Look into
 -  `April 2013 Software Carpentry at
    Arizona <http://2013-swc-az.readthedocs.org/en/latest/index.html>`__
 
--  `Illustrating Python via Bioinformatics Examples (Bioinf-py)
-   <http://hplgit.github.io/bioinf-py/doc/pub/html/index.html>`__.
+-  `Illustrating Python via Bioinformatics Examples
+   (Bioinf-py) <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__.
    At the `main site you can select your
    form <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__.
 
@@ -27,17 +27,8 @@ Look into
    Nov 6;515(7525):151-2. doi: 10.1038/515151a. PMID:
    25373681 <http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261>`__
 
--  `a two year-old screencast intro of IPython notebook by Titus
-   Brown <https://www.youtube.com/watch?v=HaS4NXxL5Qc&feature=youtu.be>`__
-   (Skip to the three-minute mark since we aren't necessarily interested
-   in running it on Amazon web services right now.) A non-interactive
-   version of the notebook he demonstrates is
-   `here <http://nbviewer.ipython.org/github/fomightez/jan2015feng_gr_m/blob/master/others_demos/titus_screencast.ipynb>`__.
-
--  `Another take on the wonders of the IPython
-   notebook <http://nbviewer.ipython.org/url/inesdesantiago.github.io/SeqQC.blog/ipythonSlides_post5/Example_Ipython.ipynb>`__,
-   from `a
-   blog <https://seqqc.wordpress.com/2015/02/22/make-slides-with-ipython-notebook/>`__.
+-  See `here <>`__ for current (as of September 2016) information about
+   Jupyter Notebook, which was previously called IPython Notebooks.
 
 -  `March 2015 blog post suggesting mandatory primer courses for basic
    skills for students in cellular & molecular biology, genetics, and
@@ -67,8 +58,8 @@ Learning Python
 -  `How to Think Like a Computer Scientist: Learning with Python
    3.x <http://openbookproject.net/thinkcs/python/english3e/index.html>`__
 
--  `Illustrating Python via Bioinformatics Examples (Bioinf-py)
-    <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__
+-  `Illustrating Python via Bioinformatics Examples
+   (Bioinf-py) <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__
 
 -  The three Coursera courses in Rice University's Fundamentals of
    Computing specialization. The three courses are `An Introduction to
@@ -83,6 +74,9 @@ Learning Python
    of the instructors, Luay Nakhleh, focuses on bioinformatics, and so
    while they touch on some of these aspects later in the series of
    courses, the main emphasis is computing in general.
+
+-  `Learn Python the right way in 5
+   steps <https://www.dataquest.io/blog/learn-python-the-right-way/>`__
 
 -  Coursera course: `Programming for Everybody
    (Python) <https://www.coursera.org/course/pythonlearn>`__ - Gradually
@@ -170,6 +164,9 @@ Intermediate Python and Integrating it with Other Tools
    IPython Notebook project. --> An `example of integrating it further
    with
    Bash <http://jeroenjanssens.com/2015/02/19/ibash-notebook.html>`__.
+
+-  `What is It that Python Cannot
+   Do? <http://www.allaboutweb.biz/what-is-it-that-python-cannot-do/?platform=hootsuite>`__
 
 ADVANCED
 --------
