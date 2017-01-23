@@ -30,9 +30,9 @@ Look into
 -  See
    `here <https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook#gs.UeGobjY>`__
    and other resources listed
-   `here <http://retreat16.readthedocs.io/en/latest/references%20by%20section/#background>`__\ for
-   current (as of September 2016) information about Jupyter Notebook,
-   which was previously called IPython Notebooks.
+   `here <http://retreat16.readthedocs.io/en/latest/references%20by%20section/#background>`__
+   for current (as of September 2016) information about Jupyter
+   Notebook, which was previously called IPython Notebooks.
 
 -  `March 2015 blog post suggesting mandatory primer courses for basic
    skills for students in cellular & molecular biology, genetics, and
