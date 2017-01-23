@@ -27,8 +27,12 @@ Look into
    Nov 6;515(7525):151-2. doi: 10.1038/515151a. PMID:
    25373681 <http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261>`__
 
--  See `here <>`__ for current (as of September 2016) information about
-   Jupyter Notebook, which was previously called IPython Notebooks.
+-  See
+   `here <https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook#gs.UeGobjY>`__
+   and other resources listed
+   `here <http://retreat16.readthedocs.io/en/latest/references%20by%20section/#background>`__\ for
+   current (as of September 2016) information about Jupyter Notebook,
+   which was previously called IPython Notebooks.
 
 -  `March 2015 blog post suggesting mandatory primer courses for basic
    skills for students in cellular & molecular biology, genetics, and
@@ -60,6 +64,12 @@ Learning Python
 
 -  `Illustrating Python via Bioinformatics Examples
    (Bioinf-py) <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__
+
+-  `A Whirlwind Tour of
+   Python <https://github.com/jakevdp/WhirlwindTourOfPython>`__
+   accompanies a
+   `ebook/report <http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp>`__
+   of the same name by Jake VanderPlas
 
 -  The three Coursera courses in Rice University's Fundamentals of
    Computing specialization. The three courses are `An Introduction to
