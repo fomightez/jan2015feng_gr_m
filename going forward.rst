@@ -53,6 +53,12 @@ Learning Python
 -  `Rosalind, platform for learning bioinformatics and programming
    through problem solving <http://rosalind.info/problems/locations/>`__
 
+-  `A Whirlwind Tour of
+   Python <https://github.com/jakevdp/WhirlwindTourOfPython>`__
+   accompanies a
+   `ebook/report <http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp>`__
+   of the same name by Jake VanderPlas
+
 -  `A modern guide to getting started with Data Science and
    Python <http://twiecki.github.io/blog/2014/11/18/python-for-data-science/>`__
 
@@ -65,11 +71,10 @@ Learning Python
 -  `Illustrating Python via Bioinformatics Examples
    (Bioinf-py) <http://hplgit.github.io/bioinf-py/doc/web/index.html>`__
 
--  `A Whirlwind Tour of
-   Python <https://github.com/jakevdp/WhirlwindTourOfPython>`__
-   accompanies a
-   `ebook/report <http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp>`__
-   of the same name by Jake VanderPlas
+-  `Python for Biologists <http://pythonforbiologists.com/>`__
+
+-  `Scipy Lecture Notes: One document to learn numerics, science, and
+   data with Python <http://www.scipy-lectures.org/>`__
 
 -  The three Coursera courses in Rice University's Fundamentals of
    Computing specialization. The three courses are `An Introduction to
@@ -99,8 +104,6 @@ Learning Python
 
 -  `The Python
    Tutorial <https://docs.python.org/2/tutorial/index.html>`__
-
--  `Python for Biologists <http://pythonforbiologists.com/>`__
 
 -  `Trinket's Hour of Python series <https://hourofpython.com/>`__
 
