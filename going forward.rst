@@ -59,6 +59,11 @@ Learning Python
    `ebook/report <http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp>`__
    of the same name by Jake VanderPlas
 
+-  `Python For Data Science Cheat Sheet - Python
+   Basics <https://www.datacamp.com/community/tutorials/python-data-science-cheat-sheet-basics>`__,
+   `direct link to pdf of sheet
+   only <https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf>`__
+
 -  `A modern guide to getting started with Data Science and
    Python <http://twiecki.github.io/blog/2014/11/18/python-for-data-science/>`__
 
