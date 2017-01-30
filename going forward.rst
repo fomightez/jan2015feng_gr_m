@@ -39,16 +39,18 @@ Look into
    related
    subfields <http://toddharris.net/blog/2015/03/23/its-time-to-reboot-bioinformatics-education/>`__
 
--`Scientific computing: Code
-alert <http://www.nature.com/naturejobs/science/articles/10.1038/nj7638-563a?WT.mc_id=TWT_NatureNews>`__
-Nature 541,563-565(2017) doi:10.1038/nj7638-563a Published online 25
-January 2017 by Monya Baker > "Graduate students who can incorporate
-programming into research will have their pick of postdoc positions and
-other offers, says Schloss. Such skills — or access to people who have
-them — are increasingly necessary for the big-data questions that
-scientists want to pursue. “If they think they have a lot of data now,
-in ten years we are only going to have more,” he says. “If they don't
-figure it out now, it's just going to get worse."
+-  `Scientific computing: Code
+   alert <http://www.nature.com/naturejobs/science/articles/10.1038/nj7638-563a?WT.mc_id=TWT_NatureNews>`__
+   Nature 541,563-565(2017) doi:10.1038/nj7638-563a Published online 25
+   January 2017 by Monya Baker
+
+    "Graduate students who can incorporate programming into research
+    will have their pick of postdoc positions and other offers, says
+    Schloss. Such skills — or access to people who have them — are
+    increasingly necessary for the big-data questions that scientists
+    want to pursue. “If they think they have a lot of data now, in ten
+    years we are only going to have more,” he says. “If they don't
+    figure it out now, it's just going to get worse."
 
 -  `Article with bottom line supporting learn any
    language <http://www.sitepoint.com/whats-best-programming-language-learn-2015/?utm_content=bufferaa412&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer>`__,
