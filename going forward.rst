@@ -91,6 +91,9 @@ Learning Python
 
 -  `Python for Biologists <http://pythonforbiologists.com/>`__
 
+-  `Recommended reading to get started with Python for science and data
+   analysis <http://www.leouieda.com/blog/getting-started-with-python-for-science.html>`__
+
 -  `Scipy Lecture Notes: One document to learn numerics, science, and
    data with Python <http://www.scipy-lectures.org/>`__
 
