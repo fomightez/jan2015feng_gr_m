@@ -214,6 +214,13 @@ Rmagic <http://www.randalolson.com/2013/01/14/filling-in-pythons-gaps-in-statist
 `Comparing Python and R for Data
 Science <http://blog.dominodatalab.com/comparing-python-and-r-for-data-science/>`__
 
+`Choosing R or Python for data analysis? An
+infographic <https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis#gs.z=oyf6E>`__
+
+`Shirin Glander's comparison of R with Python using a practical genomics
+data
+example <https://shiring.github.io/r_vs_python/2017/01/22/R_vs_Py_post>`__
+
 `How I Like to Use Python (or ‘writing Software as a
 Scientist’) <http://nanodatum.wordpress.com/2014/12/26/how-i-like-to-use-python-or-writing-software-as-a-scientist/>`__
 
