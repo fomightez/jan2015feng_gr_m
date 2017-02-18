@@ -13,8 +13,9 @@ Introduction to coding in Python.
 
 `A Google Doc for sharing today <http://bit.ly/FengGoogleDoc>`__
 
-| 3:40am-5:30pm, January 15th, 2015. (1st session)
-| 1st session in series; see
+3:40am-5:30pm, January 15th, 2015. (1st session)
+
+This is 1st session in series; see
 `second session info
 here <http://feng-lab-data-science-toolbox-and-chip-seq.readthedocs.org/en/latest/>`__, and `third, hands-on session info
 here <http://fenglabwkshopmay2015.readthedocs.io/en/latest/>`__
