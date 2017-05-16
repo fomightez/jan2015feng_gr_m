@@ -169,6 +169,9 @@ NGS Analysis
 Intermediate Python and Integrating it with Other Tools
 -------------------------------------------------------
 
+-  `"Python for Scientists and
+   Engineers" <http://pythonforengineers.com/python-for-scientists-and-engineers/>`__
+
 -  `“Why We Built Enthought Canopy, An Inside Look” Recorded
    Webinar <http://blog.enthought.com/general/why-we-built-canopy/#.VLNDKWTF85g>`__.
    Learn about getting Canopy
