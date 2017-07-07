@@ -94,6 +94,16 @@ Learning Python
 -  `Recommended reading to get started with Python for science and data
    analysis <http://www.leouieda.com/blog/getting-started-with-python-for-science.html>`__
 
+-  `PyData 101: Everything you need to know to get started in data
+   science in Python, PyData Seattle 2017 Keynote by Jake
+   VanderPlas <https://speakerdeck.com/jakevdp/pydata-101>`__
+
+    "The PyData ecosystem is vast and powerful, but it can be
+    overwhelming to newcomers. In this talk I outline some of the
+    history of *why* the Python data science space is the way it is, as
+    well as *what* tools and techniques you should focus on to get
+    started for your own problems."
+
 -  `Scipy Lecture Notes: One document to learn numerics, science, and
    data with Python <http://www.scipy-lectures.org/>`__
 
@@ -176,6 +186,16 @@ Intermediate Python and Integrating it with Other Tools
    Webinar <http://blog.enthought.com/general/why-we-built-canopy/#.VLNDKWTF85g>`__.
    Learn about getting Canopy
    `here <https://store.enthought.com/#canopy-academic>`__.
+
+-  `PyData 101: Everything you need to know to get started in data
+   science in Python, PyData Seattle 2017 Keynote by Jake
+   VanderPlas <https://speakerdeck.com/jakevdp/pydata-101>`__
+
+    "The PyData ecosystem is vast and powerful, but it can be
+    overwhelming to newcomers. In this talk I outline some of the
+    history of *why* the Python data science space is the way it is, as
+    well as *what* tools and techniques you should focus on to get
+    started for your own problems."
 
 -  `Analyzing data with R in the IPython
    notebook <http://nbviewer.ipython.org/github/dboyliao/cookbook-code/blob/master/notebooks/chapter07_stats/08_r.ipynb>`__
