@@ -91,6 +91,9 @@ Learning Python
 
 -  `Python for Biologists <http://pythonforbiologists.com/>`__
 
+-  `Using Python for Research: HarvardX
+   course <http://rafalab.github.io/pages/harvardx.html#python>`__
+
 -  `Recommended reading to get started with Python for science and data
    analysis <http://www.leouieda.com/blog/getting-started-with-python-for-science.html>`__
 
