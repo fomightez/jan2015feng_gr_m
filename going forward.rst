@@ -96,6 +96,9 @@ Learning Python
 
 -  `Recommended reading to get started with Python for science and data
    analysis <http://www.leouieda.com/blog/getting-started-with-python-for-science.html>`__
+ 
+-  `Lectures in Scientific Computing in Python 
+   <https://github.com/scientificprogrammingUOS/lectures>`__
 
 -  `PyData 101: Everything you need to know to get started in data
    science in Python, PyData Seattle 2017 Keynote by Jake
