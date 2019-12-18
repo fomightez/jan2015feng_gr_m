@@ -31,6 +31,8 @@ On Your Desktop - Asterisks indicates those in this section I have used and they
 In Your Browser/Cloud - Asterisks indicates those in this section I have used
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+- Launch sessions via `MyBinder.org <https://mybinder.org/>`__ Example can be launched from:  `Here <https://github.com/fomightez/blast-binder/>`__ and BLAST will work along with Python. Sessions based on R available elsewhere.
+
 -  `PythonAnywhere <https://www.pythonanywhere.com>`__\ \* (Others'
    recent views `at the Python
    subreddit <http://www.reddit.com/r/Python/comments/2tr8vk/what_are_your_experiences_with_pythonanywhere/>`__)
@@ -40,10 +42,14 @@ In Your Browser/Cloud - Asterisks indicates those in this section I have used
 -  `Sagemath Cloud <https://cloud.sagemath.com>`__ Jupyter Notebook (formerly called IPython Notebook) work An introduction can be found
    `here <http://www.randalolson.com/2013/11/02/sagemath-cloud-makes-collaborating-with-ipython-notebooks-easier-than-ever/>`__
 
+- Azure notebooks
+
 -  `Wakari.io - Web-based Python Data
    Analysis <https://www.wakari.io/>`__\ \* - Unfortunately, the IPython
    notebook aspect doesn't seem to work when on Upstate's network, but
    you can still use Python there.
+   
+- `Code with Mu: a simple Python editor for beginner programmers <https://codewith.mu/>`_ (Found in 2019. I don't know if it is emulator or actual python.)
 
 -  `Trinket <https://trinket.io/>`__
 
@@ -71,6 +77,8 @@ In Your Browser/Cloud - Asterisks indicates those in this section I have used
 
 In Your Browser - Emulators (you won't know it isn't REALLY full-featured Python, for the most part)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- `Code with Mu: a simple Python editor for beginner programmers <https://codewith.mu/>`_ (Found in 2019. I don't know if it is emulator or actual python.)
 
 -  `CodeSkulptor <http://www.codeskulptor.org/>`__\ \*
 
