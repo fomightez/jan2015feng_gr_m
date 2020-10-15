@@ -93,6 +93,9 @@ Learning Python
 
 -  `Using Python for Research: HarvardX
    course <http://rafalab.github.io/pages/harvardx.html#python>`__
+   
+-  `Practical Python Programming course by David Beazley 
+   <https://dabeaz-course.github.io/practical-python/>`__
 
 -  `Recommended reading to get started with Python for science and data
    analysis <http://www.leouieda.com/blog/getting-started-with-python-for-science.html>`__
