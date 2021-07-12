@@ -76,6 +76,8 @@ Learning Python
    Basics <https://www.datacamp.com/community/tutorials/python-data-science-cheat-sheet-basics>`__,
    `direct link to pdf of sheet
    only <https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf>`__
+   
+-  `Python For Data Science: Parts 1 and 2 by Chris Myers - Cornell Center for Advanced Computing & Jeff Sale - San Diego Supercomputing Center <https://cvw.cac.cornell.edu/pydatasci1/default>`__ - Click 'next =>' to step through Part 1 and go back there to get to link to Part 2.
 
 -  `A modern guide to getting started with Data Science and
    Python <http://twiecki.github.io/blog/2014/11/18/python-for-data-science/>`__
